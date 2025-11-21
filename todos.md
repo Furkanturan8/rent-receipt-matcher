@@ -41,3 +41,8 @@
   - Yayına hazırlık için dağıtım planı ve bakım süreçlerini tanımla.
 
 
+Aşağıdaki dosyaları sil (mock data kullanmadığında kaldır): 
+
+❌ src/ocr/matching/cli.py (kaldırılacak)
+❌ src/ocr/matching/example_usage.py (kaldırılacak)
+❌ src/ocr/matching/__init__.py (export ediyor)
