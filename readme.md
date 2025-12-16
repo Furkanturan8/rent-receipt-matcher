@@ -7,9 +7,6 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-brightgreen.svg)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> 🚀 **Hızlı Başlangıç:** [QUICK_START.md](QUICK_START.md)  
-> 📄 **Final Rapor:** [FINAL_SUMMARY.md](FINAL_SUMMARY.md)
-
 ---
 
 ## 🎯 Proje Özeti
