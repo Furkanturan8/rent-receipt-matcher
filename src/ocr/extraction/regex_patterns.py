@@ -142,7 +142,8 @@ BANK_SPECIFIC_PATTERNS: Dict[str, ReceiptPatterns] = {
             r"IBAN\s*(?:\n.*?){7,9}:\s*([A-Z]{2}[0-9\s]{10,34})"
         ),
         description=_compile(
-            r"(?:[A-ZÇĞİÖŞÜ\s]+\n)?([A-ZÇĞİÖŞÜa-zçğıöşü0-9\.\s]{5,}?)\s+Fast\s+Mesaj"
+            # Fast Mesaj'dan önce gelen tüm metni al (virgül, iki nokta, tire dahil)
+            r"([A-ZÇĞİÖŞÜa-zçğıöşü0-9\.\,\:\-\(\)\s]+?)\s+Fast\s+Mesaj"
         ),
         amount=_compile(
             r"İşlem\s+Tutarı\s*[:\-]?\s*(?:.*?)?([0-9]+(?:[.,][0-9]{1,3})*(?:[.,][0-9]{2})?)\s*(?:TRY|TL|\u20ba)?"

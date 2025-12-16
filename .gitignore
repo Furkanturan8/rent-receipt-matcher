@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# ⚠️ MODEL DOSYALARI - EN ÖNEMLİ!
+models/                    # Tüm models klasörünü ignore et
+*.safetensors             # Model ağırlıkları
+*.bin                     # Model binary dosyaları
+*.pt                      # PyTorch checkpoints
+*.pth                     # PyTorch ağırlıkları
+
+# Hugging Face cache
+.cache/
+transformers_cache/
+
+# Data - Büyük dosyalar
+data/*.pdf                # PDF dekontlar
+data/real/                # Real data klasörü (varsa)
+
+# Raporlar (opsiyonel)
+rapor/*.pdf
+rapor/*.docx
+*.pdf
+*.docx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+*~

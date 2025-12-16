@@ -71,6 +71,7 @@
           "id": 1,
           "title": "Beşiktaş 3+1 Daire",
           "owner_id": 1,
+          "customer_id": 1,
           "listing_type": "rent",
           "city": "İstanbul",
           "district": "Beşiktaş",
@@ -82,6 +83,7 @@
           "id": 2,
           "title": "Kadıköy 2+1 Daire",
           "owner_id": 2,
+          "customer_id": 2,
           "listing_type": "rent",
           "city": "İstanbul",
           "district": "Kadıköy",
@@ -93,6 +95,7 @@
           "id": 3,
           "title": "Şişli Ofis",
           "owner_id": 3,
+          "customer_id": 3,
           "listing_type": "rent",
           "city": "İstanbul",
           "district": "Şişli",
@@ -107,30 +110,25 @@
         "dekont_id": "DEKONT_001",
         "description": "Standart kira ödemesi - bireysel kiracı",
         "ocr_cikti": {
-          "banka_adi": "ZİRAAT BANKASI",
-          "islem_turu": "HAVALE",
-          "gonderen_adi": "ZEYNEP ŞAHİN",
-          "gonderen_hesap": "TR88 0001 0012 3456 7890 1234 56",
-          "alici_adi": "AHMET YILMAZ",
-          "alici_hesap": "TR33 0006 1005 1978 6457 8413 26",
-          "tutar": "45.000,00",
-          "para_birimi": "TRY",
-          "islem_tarihi": "20.11.2024",
-          "islem_saati": "14:32:15",
-          "referans_no": "ZB2024112012345678",
-          "aciklama": "KASIM 2024 KİRA BEŞİKTAŞ SİNANPAŞA MAH. DAİRE:8",
-          "dekont_no": "DK-2024-11-20-001"
+          "sender": "ZEYNEP ŞAHİN",
+          "sender_iban": "TR88 0001 0012 3456 7890 1234 56",
+          "recipient": "AHMET YILMAZ",
+          "receiver_iban": "TR33 0006 1005 1978 6457 8413 26",
+          "amount": "45.000,00",
+          "amount_currency": "TRY",
+          "date": "20.11.2024 - 14:32:15",
+          "description": "KASIM 2024 KİRA BEŞİKTAŞ SİNANPAŞA MAH. DAİRE:8"
         },
         "beklenen_esleme": {
           "owner_id": 1,
           "customer_id": 1,
           "property_id": 1,
           "esleme_ipuclari": {
-            "alici_iban": "TR33 0006 1005 1978 6457 8413 26",
-            "alici_isim": "AHMET YILMAZ",
-            "aciklamada_adres": "BEŞİKTAŞ SİNANPAŞA",
-            "aciklamada_daire": "DAİRE:8",
-            "tutar": 45000
+            "receiver_iban": "TR33 0006 1005 1978 6457 8413 26",
+            "recipient_name": "AHMET YILMAZ",
+            "address_in_description": "BEŞİKTAŞ SİNANPAŞA",
+            "apt_in_description": "DAİRE:8",
+            "amount": 45000
           }
         }
       },
@@ -138,30 +136,25 @@
         "dekont_id": "DEKONT_002",
         "description": "Kira ödemesi - isim farklılıkları ile",
         "ocr_cikti": {
-          "banka_adi": "AKBANK",
-          "islem_turu": "EFT",
-          "gonderen_adi": "CAN OZTURK",
-          "gonderen_hesap": "TR66 0004 6000 1234 5678 9012 34",
-          "alici_adi": "AYSE DEMÍR",
-          "alici_hesap": "TR12 0001 0002 3456 7890 1234 56",
-          "tutar": "35.000,00",
-          "para_birimi": "TL",
-          "islem_tarihi": "18.11.2024",
-          "islem_saati": "09:15:42",
-          "referans_no": "AK20241118987654",
-          "aciklama": "Kasim kira MODA DAİRE 12",
-          "dekont_no": "DK-2024-11-18-002"
+          "sender": "CAN OZTURK",
+          "sender_iban": "TR66 0004 6000 1234 5678 9012 34",
+          "recipient": "AYSE DEMÍR",
+          "receiver_iban": "TR12 0001 0002 3456 7890 1234 56",
+          "amount": "35.000,00",
+          "amount_currency": "TRY",
+          "date": "18.11.2024 - 09:15:42",
+          "description": "Kasim kira MODA DAİRE 12"
         },
         "beklenen_esleme": {
           "owner_id": 2,
           "customer_id": 2,
           "property_id": 2,
           "esleme_ipuclari": {
-            "alici_iban": "TR12 0001 0002 3456 7890 1234 56",
-            "alici_isim_benzerlik": "AYSE DEMIR vs AYSE DEMÍR (Türkçe karakter farklılığı)",
-            "aciklamada_adres": "MODA",
-            "aciklamada_daire": "DAİRE 12",
-            "tutar": 35000
+            "receiver_iban": "TR12 0001 0002 3456 7890 1234 56",
+            "name_similarity_note": "AYSE DEMIR vs AYSE DEMÍR (Türkçe karakter farklılığı)",
+            "address_in_description": "MODA",
+            "apt_in_description": "DAİRE 12",
+            "amount": 35000
           }
         }
       },
@@ -169,30 +162,25 @@
         "dekont_id": "DEKONT_003",
         "description": "Kurumsal kira ödemesi - ofis",
         "ocr_cikti": {
-          "banka_adi": "İŞ BANKASI",
-          "islem_turu": "HAVALE",
-          "gonderen_adi": "TEKNOLOJİ ANONİM ŞİRKETİ",
-          "gonderen_hesap": "TR98 0006 4000 0011 1234 5678 90",
-          "alici_adi": "MEHMET KAYA",
-          "alici_hesap": "TR45 0004 6000 8888 8000 0123 45",
-          "tutar": "75000,00",
-          "para_birimi": "TRY",
-          "islem_tarihi": "15.11.2024",
-          "islem_saati": "16:45:30",
-          "referans_no": "IB2024111509876543",
-          "aciklama": "2024/11 OFİS KİRASI MECİDİYEKÖY PLAZA KAT:3",
-          "dekont_no": "DK-2024-11-15-003"
+          "sender": "TEKNOLOJİ ANONİM ŞİRKETİ",
+          "sender_iban": "TR98 0006 4000 0011 1234 5678 90",
+          "recipient": "MEHMET KAYA",
+          "receiver_iban": "TR45 0004 6000 8888 8000 0123 45",
+          "amount": "75000,00",
+          "amount_currency": "TRY",
+          "date": "15.11.2024 - 16:45:30",
+          "description": "2024/11 OFİS KİRASI MECİDİYEKÖY PLAZA KAT:3"
         },
         "beklenen_esleme": {
           "owner_id": 3,
           "customer_id": 3,
           "property_id": 3,
           "esleme_ipuclari": {
-            "alici_iban": "TR45 0004 6000 8888 8000 0123 45",
-            "alici_isim": "MEHMET KAYA",
-            "gonderen_kurum": "TEKNOLOJİ ANONİM ŞİRKETİ",
-            "aciklamada_adres": "MECİDİYEKÖY PLAZA",
-            "tutar": 75000
+            "receiver_iban": "TR45 0004 6000 8888 8000 0123 45",
+            "recipient_name": "MEHMET KAYA",
+            "sender_company": "TEKNOLOJİ ANONİM ŞİRKETİ",
+            "address_in_description": "MECİDİYEKÖY PLAZA",
+            "amount": 75000
           }
         }
       },
@@ -200,30 +188,25 @@
         "dekont_id": "DEKONT_004",
         "description": "Eksik bilgili dekont - sadece IBAN ve tutar net",
         "ocr_cikti": {
-          "banka_adi": "GARANTİ BBVA",
-          "islem_turu": "EFT",
-          "gonderen_adi": "Z.SAHIN",
-          "gonderen_hesap": "TR11 0006 2000 5550 0000 1234 56",
-          "alici_adi": "A.YILMAZ",
-          "alici_hesap": "TR33 0006 1005 1978 6457 8413 26",
-          "tutar": "45.000",
-          "para_birimi": "TRY",
-          "islem_tarihi": "05.11.2024",
-          "islem_saati": "11:20",
-          "referans_no": "GB20241105445566",
-          "aciklama": "kira",
-          "dekont_no": "DK-2024-11-05-004"
+          "sender": "Z.SAHIN",
+          "sender_iban": "TR11 0006 2000 5550 0000 1234 56",
+          "recipient": "A.YILMAZ",
+          "receiver_iban": "TR33 0006 1005 1978 6457 8413 26",
+          "amount": "45.000",
+          "amount_currency": "TRY",
+          "date": "05.11.2024 - 11:20",
+          "description": "kira"
         },
         "beklenen_esleme": {
           "owner_id": 1,
           "customer_id": 1,
           "property_id": 1,
           "esleme_ipuclari": {
-            "alici_iban": "TR33 0006 1005 1978 6457 8413 26",
-            "alici_isim_kisaltma": "A.YILMAZ",
-            "gonderen_kisaltma": "Z.SAHIN",
-            "tutar": 45000,
-            "not": "IBAN ana eşleştirme kriteri olmalı"
+            "receiver_iban": "TR33 0006 1005 1978 6457 8413 26",
+            "recipient_abbreviation": "A.YILMAZ",
+            "sender_abbreviation": "Z.SAHIN",
+            "amount": 45000,
+            "note": "IBAN should be the main matching criterion"
           }
         }
       },
@@ -231,95 +214,90 @@
         "dekont_id": "DEKONT_005",
         "description": "OCR hataları içeren dekont",
         "ocr_cikti": {
-          "banka_adi": "YAPI KREDİ",
-          "islem_turu": "HAVALE",
-          "gonderen_adi": "CAN 0ZTURK",
-          "gonderen_hesap": "TR66O0046OOO12345678901234",
-          "alici_adi": "AY5E DEMlR",
-          "alici_hesap": "TR12 OOO1 OOO2 3456 789O 1234 56",
-          "tutar": "35,OOO.OO",
-          "para_birimi": "TRY",
-          "islem_tarihi": "2O.11.2O24",
-          "islem_saati": "1O:3O",
-          "referans_no": "YK2O24111O123456",
-          "aciklama": "KASIM K1RA M0DA",
-          "dekont_no": "DK-2O24-11-2O-OO5"
+          "sender": "CAN 0ZTURK",
+          "sender_iban": "TR66O0046OOO12345678901234",
+          "recipient": "AY5E DEMlR",
+          "receiver_iban": "TR12 OOO1 OOO2 3456 789O 1234 56",
+          "amount": "35,OOO.OO",
+          "amount_currency": "TRY",
+          "date": "2O.11.2O24 - 1O:3O",
+          "description": "KASIM K1RA M0DA"
         },
         "beklenen_esleme": {
           "owner_id": 2,
           "customer_id": 2,
           "property_id": 2,
-          "ocr_duzeltmeler": {
-            "gonderen_adi": "CAN 0ZTURK -> CAN ÖZTÜRK (0 yerine Ö)",
-            "gonderen_hesap": "O harfi sıfır olmalı",
-            "alici_adi": "AY5E DEMlR -> AYŞE DEMİR (5 yerine Ş, l yerine İ)",
-            "alici_hesap": "O harfi sıfır olmalı",
-            "tutar": "35,OOO.OO -> 35000.00 (O harfi sıfır)",
-            "islem_tarihi": "2O -> 20 (O harfi sıfır)",
-            "aciklama": "1 yerine İ, 0 yerine O"
+          "ocr_corrections": {
+            "sender": "CAN 0ZTURK -> CAN ÖZTÜRK (0 instead of Ö)",
+            "sender_iban": "O should be zero",
+            "recipient": "AY5E DEMlR -> AYŞE DEMİR (5 instead of Ş, l instead of İ)",
+            "receiver_iban": "O should be zero",
+            "amount": "35,OOO.OO -> 35000.00 (O should be zero)",
+            "date": "2O -> 20 (O should be zero)",
+            "description": "1 instead of İ, 0 instead of O"
           },
           "esleme_ipuclari": {
-            "fuzzy_matching_gerekli": true,
-            "iban_normalize": "Boşlukları kaldır, O/0 dönüşümü yap",
-            "isim_benzerlik_threshold": 0.8
+            "fuzzy_matching_required": true,
+            "iban_normalize": "Remove spaces, O/0 conversion",
+            "name_similarity_threshold": 0.8
           }
         }
       }
     ],
-    "esleme_algoritmasi_onerileri": {
-      "oncelik_sirasi": [
+    "matching_algorithm_recommendations": {
+      "priority_order": [
         {
-          "sira": 1,
-          "kriter": "IBAN eşleşmesi",
-          "aciklama": "Alıcı IBAN'ı Owner IBAN ile tam eşleşmeli",
-          "guven_skoru": 95
+          "rank": 1,
+          "criterion": "IBAN matching",
+          "description": "Recipient IBAN should exactly match Owner IBAN",
+          "confidence_score": 95
         },
         {
-          "sira": 2,
-          "kriter": "Tutar eşleşmesi",
-          "aciklama": "Dekont tutarı property price ile eşleşmeli (±%5 tolerans)",
-          "guven_skoru": 85
+          "rank": 2,
+          "criterion": "Amount matching",
+          "description": "Receipt amount should match property price (±5% tolerance)",
+          "confidence_score": 85
         },
         {
-          "sira": 3,
-          "kriter": "İsim benzerliği",
-          "aciklama": "Alıcı adı Owner ismi ile fuzzy match (Levenshtein distance)",
-          "guven_skoru": 75
+          "rank": 3,
+          "criterion": "Name similarity",
+          "description": "Recipient name should fuzzy match Owner name (Levenshtein distance)",
+          "confidence_score": 75
         },
         {
-          "sira": 4,
-          "kriter": "Adres bilgisi",
-          "aciklama": "Açıklama içinde property address parçaları (mahalle, sokak, daire)",
-          "guven_skoru": 70
+          "rank": 4,
+          "criterion": "Address information",
+          "description": "Description should contain property address parts (neighborhood, street, apt)",
+          "confidence_score": 70
         },
         {
-          "sira": 5,
-          "kriter": "Gönderen bilgisi",
-          "aciklama": "Gönderen adı Customer ismi ile eşleşmeli",
-          "guven_skoru": 60
+          "rank": 5,
+          "criterion": "Sender information",
+          "description": "Sender name should match Customer name",
+          "confidence_score": 60
         }
       ],
-      "normalizasyon_kurallari": {
+      "normalization_rules": {
         "iban": [
-          "Tüm boşlukları kaldır",
-          "Büyük harfe çevir",
-          "O harfi yerine 0 (sıfır) kontrol et",
-          "I/l harfi yerine 1 kontrol et"
+          "Remove all spaces",
+          "Convert to uppercase",
+          "Check O vs 0 (zero) conversion",
+          "Check I/l vs 1 conversion"
         ],
-        "isim": [
-          "Büyük harfe çevir",
-          "Türkçe karakterleri normalize et (ı->I, ş->S, ğ->G, ü->U, ö->O, ç->C)",
-          "Çift boşlukları tek boşluğa indir",
-          "Başta/sonda boşlukları temizle"
+        "name": [
+          "Convert to uppercase",
+          "Normalize Turkish characters (ı->I, ş->S, ğ->G, ü->U, ö->O, ç->C)",
+          "Reduce double spaces to single",
+          "Trim leading/trailing spaces"
         ],
-        "tutar": [
-          "Nokta ve virgül işaretlerini standardize et",
-          "TL/TRY/₺ ifadelerini temizle",
-          "Decimal olarak parse et"
+        "amount": [
+          "Standardize dot and comma separators",
+          "Remove TL/TRY/₺ symbols",
+          "Parse as decimal"
         ],
-        "tarih": [
-          "Farklı formatları destekle (DD.MM.YYYY, DD/MM/YYYY)",
-          "OCR hataları için 0/O kontrolü"
+        "date": [
+          "Support different formats (DD.MM.YYYY, DD/MM/YYYY)",
+          "Check 0/O OCR errors"
         ]
       }
     }

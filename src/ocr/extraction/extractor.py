@@ -69,6 +69,60 @@ def normalize_currency(value: str) -> str:
     return mapping.get(upper_value, upper_value)
 
 
+def normalize_amount_ocr(amount: str) -> str:
+    """
+    Amount string'indeki OCR hatalarını düzelt.
+    
+    OCR hataları:
+    - O harfi → 0 (sıfır)
+    - l/I harfi → 1
+    """
+    if not amount:
+        return amount
+    
+    # OCR hataları: O → 0, I/l → 1
+    normalized = amount.replace("O", "0").replace("o", "0")
+    normalized = normalized.replace("I", "1").replace("l", "1")
+    
+    return normalized
+
+
+def normalize_name_ocr(name: str) -> str:
+    """
+    Name string'indeki OCR hatalarını düzelt.
+    
+    OCR hataları (ters yönde):
+    - 1 → I (İsim için: "1BRAH1M" → "IBRAHIM")
+    - 0 → O (İsim için: "0SMAN" → "OSMAN")
+    """
+    if not name:
+        return name
+    
+    # OCR hataları (isim için): 1 → I, 0 → O
+    # Ancak dikkatli olmalıyız - sadece kelime başında veya kelimenin ortasında
+    normalized = name
+    
+    # Kelime başındaki 1'leri I yap
+    if normalized.startswith("1"):
+        normalized = "I" + normalized[1:]
+    
+    # Kelime aralarındaki 1'leri I yap (boşluktan sonra)
+    normalized = normalized.replace(" 1", " I")
+    
+    # Harflerle çevrili 1'leri I yap (örn: 1BRAH1M)
+    import re
+    # A-Z arasında 1 varsa I yap
+    normalized = re.sub(r'([A-ZÇĞİÖŞÜa-zçğıöşü])1([A-ZÇĞİÖŞÜa-zçğıöşü])', r'\1I\2', normalized)
+    
+    # 0 için benzer mantık (0SMAN -> OSMAN)
+    if normalized.startswith("0"):
+        normalized = "O" + normalized[1:]
+    normalized = normalized.replace(" 0", " O")
+    normalized = re.sub(r'([A-ZÇĞİÖŞÜa-zçğıöşü])0([A-ZÇĞİÖŞÜa-zçğıöşü])', r'\1O\2', normalized)
+    
+    return normalized
+
+
 def _apply_patterns(text: str, patterns: ReceiptPatterns) -> FieldMap:
     """Pattern setindeki alanları yakalayarak sözlük döndür."""
 
@@ -132,10 +186,14 @@ def extract_fields(text: str, bank_hint: Optional[str] = None) -> FieldMap:
 
     _, best_fields = _choose_best_result(candidate_results)
 
+    # Normalize amount (OCR error correction)
+    if "amount" in best_fields and best_fields["amount"]:
+        best_fields["amount"] = normalize_amount_ocr(best_fields["amount"])
+
     if "amount" not in best_fields or not best_fields["amount"]:
         fallback_match = GENERIC_AMOUNT_FALLBACK.search(normalized_text)
         if fallback_match and fallback_match.group(1):
-            best_fields["amount"] = clean_field_value(fallback_match.group(1))
+            best_fields["amount"] = normalize_amount_ocr(clean_field_value(fallback_match.group(1)))
             if fallback_match.lastindex and fallback_match.group(2):
                 best_fields["currency"] = normalize_currency(fallback_match.group(2))
 
@@ -146,12 +204,53 @@ def extract_fields(text: str, bank_hint: Optional[str] = None) -> FieldMap:
         # Eğer para birimi belirtilmemişse ve tutar varsa, varsayılan olarak TRY ekle
         # (Türk bankalarında genellikle TL/TRY kullanılır)
         best_fields["amount_currency"] = "TRY"
+    
+    # İsimleri normalize et (OCR hataları: 1 -> I, 0 -> O)
+    if best_fields.get("sender"):
+        best_fields["sender"] = normalize_name_ocr(best_fields["sender"])
+    
+    if best_fields.get("recipient"):
+        best_fields["recipient"] = normalize_name_ocr(best_fields["recipient"])
 
     if best_fields.get("sender_iban"):
-        best_fields["sender_iban"] = best_fields["sender_iban"].replace(" ", "").upper()
+        iban = best_fields["sender_iban"].replace(" ", "").upper()
+        # OCR hataları: Sadece sayı kısmında O→0, I/l→1 (TR kodu hariç)
+        if len(iban) >= 4:
+            country = iban[:2]
+            check = iban[2:4]
+            rest = iban[4:].replace("O", "0").replace("I", "1")
+            best_fields["sender_iban"] = country + check + rest
+        else:
+            best_fields["sender_iban"] = iban
     
     if best_fields.get("receiver_iban"):
-        best_fields["receiver_iban"] = best_fields["receiver_iban"].replace(" ", "").upper()
+        iban = best_fields["receiver_iban"].replace(" ", "").upper()
+        # OCR hataları: Sadece sayı kısmında O→0, I/l→1 (TR kodu hariç)
+        if len(iban) >= 4:
+            country = iban[:2]
+            check = iban[2:4]
+            rest = iban[4:].replace("O", "0").replace("I", "1")
+            best_fields["receiver_iban"] = country + check + rest
+        else:
+            best_fields["receiver_iban"] = iban
+    
+    # Description'dan istenmeyen prefix'leri temizle + OCR hataları düzelt
+    if best_fields.get("description"):
+        import re
+        desc = best_fields["description"]
+        # VALÖR tarihini kaldır
+        desc = re.sub(r'VALÖR\s*[:\-]?\s*\d{2}\.\d{2}\.\d{4}\s*', '', desc, flags=re.IGNORECASE)
+        # İŞLEM YERİ + banka adını kaldır
+        desc = re.sub(r'İŞLEM\s+YERİ\s*[:\-]?\s*[A-ZÇĞİÖŞÜ\s]+', '', desc, flags=re.IGNORECASE)
+        # Banka mobil uygulamalarını kaldır
+        desc = re.sub(r'(ZİRAAT|HALKBANK|KUVEYT\s+TÜRK|YAPI\s+KREDİ)\s+MOBİL\s*', '', desc, flags=re.IGNORECASE)
+        # Başta kalan iki nokta, tire, boşlukları temizle
+        desc = re.sub(r'^[:\-\s]+', '', desc)
+        # OCR hataları: 0 yerine O, 1 yerine l/I
+        desc = desc.replace("0", "O").replace("1", "I")  # Descriptive text için tersini yap - sayıları harfleştirme
+        # Çift boşlukları tek yap
+        desc = ' '.join(desc.split())
+        best_fields["description"] = desc.strip()
 
     # Standart sırada çıktı oluştur: sender, sender_iban, description, amount, amount_currency, date, recipient, receiver_iban
     standard_fields = {}

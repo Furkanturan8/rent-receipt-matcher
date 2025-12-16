@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 203,
+    "text": "Kapora bedeli daire A4",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 77,
+    "text": "Aidat ödemesi 24",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 165,
+    "text": "Daire D1 kapora ödemesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 116,
+    "text": "Site aidatı - Şubat 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 287,
+    "text": "Depozito bedeli daire C1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 115,
+    "text": "Aidat - Haziran 2023 - C2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 292,
+    "text": "D1 dairesi depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 182,
+    "text": "Kapora - A1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 162,
+    "text": "Kapora bedeli daire D2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 83,
+    "text": "Site yönetim aidatı Şubat 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 46,
+    "text": "Daire B3 - Temmuz kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 79,
+    "text": "1 dairesi aidat ödemesi Kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 128,
+    "text": "Ocak/2023 aidat - B1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 14,
+    "text": "Haziran/2023 kira - A2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 192,
+    "text": "Kapora - 3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 20,
+    "text": "Daire 3 - Kasım kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 21,
+    "text": "Daire A2 - Mart kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 188,
+    "text": "Ön ödeme kapora C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 297,
+    "text": "Teminat bedeli Haziran 2023",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 114,
+    "text": "Apartman aidatı Kasım 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 238,
+    "text": "Depozito ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 288,
+    "text": "A1 depozito Ocak 2023",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 121,
+    "text": "Site aidatı - Eylül 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 241,
+    "text": "B5 depozito Aralık 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 179,
+    "text": "C1 kapora Temmuz 2023",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 240,
+    "text": "Depozito bedeli daire C1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 66,
+    "text": "Ekim ayı kira bedeli 1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 70,
+    "text": "Mart 2023 kira ödemesi daire 2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 176,
+    "text": "Yeni kiracı kapora B2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 218,
+    "text": "Kapora bedeli daire 24",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 134,
+    "text": "C1 dairesi aidat ödemesi Ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 10,
+    "text": "Ocak/2023 kira - B2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 152,
+    "text": "Yeni kiracı kapora D2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 9,
+    "text": "Daire C1 - Kasım kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 68,
+    "text": "B3 dairesi Ağustos 2023 kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 290,
+    "text": "C3 depozito Haziran 2023",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 74,
+    "text": "Mart 2023 kira ödemesi daire B3",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 146,
+    "text": "Site yönetim aidatı Temmuz 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 199,
+    "text": "Ön ödeme kapora B3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 31,
+    "text": "Temmuz/2023 kira - 24",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 4,
+    "text": "C3 dairesi Kasım 2024 kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 247,
+    "text": "Güvence bedeli - B3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 44,
+    "text": "Kira - Ekim 2024 - C2 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 42,
+    "text": "Mart/2024 dönemi kira ödemesi - Daire: A2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 223,
+    "text": "Daire A5 kapora ödemesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 201,
+    "text": "Yeni kiracı kapora C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 161,
+    "text": "Daire A3 kapora ödemesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 296,
+    "text": "Depozito - B4",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 35,
+    "text": "Kira - Mayıs 2024 - A5 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 278,
+    "text": "Teminat bedeli Şubat 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 246,
+    "text": "C3 dairesi depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 173,
+    "text": "Kapora ödemesi B5",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 210,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 235,
+    "text": "Güvence bedeli - C1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 214,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 154,
+    "text": "Kapora ödemesi 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 87,
+    "text": "Nisan ayı aidat bedeli",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 232,
+    "text": "Depozito bedeli daire 24",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 249,
+    "text": "Güvence bedeli D1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 256,
+    "text": "Depozito - A1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 62,
+    "text": "A1 dairesi Temmuz 2023 kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 81,
+    "text": "Mayıs ayı apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 226,
+    "text": "C3 depozito Aralık 2023",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 180,
+    "text": "Kapora - B1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 3,
+    "text": "B4 numaralı daire Haziran ayı kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 117,
+    "text": "Aidat - Temmuz 2023 - B3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 102,
+    "text": "Ekim ayı aidat bedeli",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 80,
+    "text": "Site aidatı - Mayıs 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 142,
+    "text": "Site yönetim aidatı Haziran 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 54,
+    "text": "Temmuz/2023 dönemi kira ödemesi - Daire: B5",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 289,
+    "text": "A5 depozito Ekim 2023",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 39,
+    "text": "Mayıs 2024 kira ödemesi daire B1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 94,
+    "text": "Apartman aidatı Mart 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 264,
+    "text": "B5 depozito Mart 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 144,
+    "text": "Aidat ödemesi 35",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 122,
+    "text": "Site yönetim aidatı Temmuz 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 89,
+    "text": "Aidat ödemesi B5",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 105,
+    "text": "Site yönetim aidatı Mart 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 107,
+    "text": "B2 dairesi aidat ödemesi Ocak",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 284,
+    "text": "Güvence bedeli 35",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 150,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 274,
+    "text": "Güvence bedeli - C1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 127,
+    "text": "Kasım/2024 aidat - 35",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 242,
+    "text": "Depozito - 35",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 22,
+    "text": "Haziran ayı kira bedeli 1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 243,
+    "text": "A5 depozito Haziran 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 8,
+    "text": "3 dairesi Şubat 2023 kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 75,
+    "text": "Aidat ödemesi A2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 95,
+    "text": "Site aidatı - Mart 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 120,
+    "text": "Aidat - Nisan 2023 - A5",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 206,
+    "text": "A2 kapora Haziran 2024",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 222,
+    "text": "Kapora bedeli daire C2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 183,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 137,
+    "text": "Ocak ayı aidat bedeli",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 19,
+    "text": "Kira - Mayıs 2024 - B5 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 36,
+    "text": "Daire C1 - Ekim kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 6,
+    "text": "Daire 12 - Nisan kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 26,
+    "text": "Mayıs ayı kira bedeli D1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 281,
+    "text": "Depozito ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 195,
+    "text": "Ön ödeme kapora C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 231,
+    "text": "C1 teminat ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 30,
+    "text": "Aralık ayı kira bedeli - D2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 259,
+    "text": "Güvence bedeli - C1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 159,
+    "text": "Yeni kiracı kapora B4",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 32,
+    "text": "Kira - Ekim 2024 - A1 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 38,
+    "text": "Kira bedeli Mart 2023 dönem 3",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 171,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 40,
+    "text": "Mart ayı kira bedeli A3",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 25,
+    "text": "B4 numaralı daire Ocak ayı kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 175,
+    "text": "Kapora bedeli daire 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 224,
+    "text": "Daire B3 kapora ödemesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 168,
+    "text": "D2 kapora Kasım 2024",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 67,
+    "text": "Kira - Kasım 2023 - C2 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 97,
+    "text": "3 dairesi aidat ödemesi Ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 244,
+    "text": "1 depozito Şubat 2023",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 59,
+    "text": "D2 dairesi Şubat 2023 kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 263,
+    "text": "C3 teminat ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 151,
+    "text": "Kapora bedeli daire A2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 220,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 227,
+    "text": "Güvence bedeli - C2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 33,
+    "text": "Kira - Ocak 2024 - B4 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 252,
+    "text": "Teminat bedeli Nisan 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 110,
+    "text": "Mart ayı apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 78,
+    "text": "Aidat ödemesi 1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 251,
+    "text": "Depozito bedeli daire B4",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 272,
+    "text": "A4 depozito Ekim 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 57,
+    "text": "Mart/2023 dönemi kira ödemesi - Daire: A4",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 270,
+    "text": "A4 teminat ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 286,
+    "text": "Güvence depozito D1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 215,
+    "text": "A1 dairesi için kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 136,
+    "text": "C3 dairesi aidat ödemesi Kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 295,
+    "text": "B1 dairesi depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 236,
+    "text": "12 depozito Aralık 2023",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 248,
+    "text": "Depozito ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 13,
+    "text": "Haziran/2024 dönemi kira ödemesi - Daire: C2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 253,
+    "text": "Depozito - 12",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 260,
+    "text": "Güvence bedeli C3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 212,
+    "text": "A2 kapora Şubat 2024",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 285,
+    "text": "Depozito - A2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 76,
+    "text": "Mart ayı aidat bedeli",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 58,
+    "text": "Daire D1 - Temmuz kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 12,
+    "text": "Daire B5 - Ocak kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 229,
+    "text": "C1 dairesi depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 233,
+    "text": "Depozito - B1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 64,
+    "text": "Eylül ayı kira bedeli - A3",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 258,
+    "text": "Depozito bedeli daire D2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 280,
+    "text": "A4 teminat ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 184,
+    "text": "B3 dairesi için kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 106,
+    "text": "Ağustos ayı aidat bedeli",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 60,
+    "text": "Kira - Ekim 2023 - 1 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 197,
+    "text": "Ön ödeme kapora A4",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 0,
+    "text": "Kasım ayı kira bedeli - C2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 291,
+    "text": "Güvence bedeli B2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 257,
+    "text": "Güvence depozito 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 276,
+    "text": "1 teminat ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 126,
+    "text": "B3 aidat Mart/2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 56,
+    "text": "Mayıs/2024 dönemi kira ödemesi - Daire: B4",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 45,
+    "text": "Eylül/2024 dönemi kira ödemesi - Daire: 1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 266,
+    "text": "Teminat bedeli Ağustos 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 37,
+    "text": "Temmuz/2024 dönemi kira ödemesi - Daire: B4",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 155,
+    "text": "Kapora - B2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 187,
+    "text": "B2 numaralı daire kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 141,
+    "text": "35 dairesi aidat ödemesi Ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 265,
+    "text": "Güvence bedeli D2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 245,
+    "text": "Güvence bedeli - B3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 170,
+    "text": "Yeni kiracı kapora 24",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 47,
+    "text": "B3 dairesi Şubat 2024 kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 2,
+    "text": "Mayıs ayı kira bedeli B3",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 91,
+    "text": "2 aidat Aralık/2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 283,
+    "text": "Depozito - B1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 198,
+    "text": "Yeni kiracı kapora B3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 204,
+    "text": "Kapora bedeli daire 12",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 250,
+    "text": "Güvence bedeli - B3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 149,
+    "text": "Site aidatı - Kasım 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 177,
+    "text": "D2 dairesi için kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 132,
+    "text": "Haziran ayı apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 92,
+    "text": "Aidat ödemesi B5",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 138,
+    "text": "1 aidat Ocak/2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 93,
+    "text": "Site yönetim aidatı Haziran 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 129,
+    "text": "Aidat ödemesi B5",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 271,
+    "text": "B4 teminat ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 139,
+    "text": "B2 aidat Şubat/2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 43,
+    "text": "Kira bedeli Mart 2024 dönem 12",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 230,
+    "text": "Depozito ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 118,
+    "text": "C2 dairesi aidat ödemesi Ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 84,
+    "text": "Aidat ödemesi D1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 158,
+    "text": "Kapora ödemesi A5",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 193,
+    "text": "Kapora - B1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 28,
+    "text": "Kira - Mart 2023 - A3 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 52,
+    "text": "Kira - Haziran 2023 - A2 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 221,
+    "text": "Ön ödeme kapora C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 50,
+    "text": "Mart/2023 kira - 2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 101,
+    "text": "Site yönetim aidatı Şubat 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 156,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 147,
+    "text": "Aidat - Ekim 2023 - D2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 237,
+    "text": "C1 dairesi depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 88,
+    "text": "Temmuz ayı aidat bedeli",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 133,
+    "text": "Site yönetim aidatı Mart 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 27,
+    "text": "Kasım/2024 kira - B5",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 298,
+    "text": "B2 depozito Şubat 2023",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 96,
+    "text": "Site yönetim aidatı Ocak 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 72,
+    "text": "Mayıs ayı kira bedeli - 3",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 207,
+    "text": "Daire 35 kapora ödemesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 113,
+    "text": "Aidat - Aralık 2023 - A3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 63,
+    "text": "Mart/2024 kira - 12",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 153,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 273,
+    "text": "Güvence depozito 12",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 172,
+    "text": "Kapora - A3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 1,
+    "text": "2 dairesi Temmuz 2023 kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 85,
+    "text": "Aidat - Ağustos 2023 - B2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 217,
+    "text": "Kapora bedeli daire B2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 99,
+    "text": "Apartman aidatı Haziran 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 55,
+    "text": "Ocak/2024 dönemi kira ödemesi - Daire: A2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 164,
+    "text": "Yeni kiracı kapora B2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 86,
+    "text": "B3 aidat Nisan/2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 135,
+    "text": "Kasım ayı apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 5,
+    "text": "Mayıs/2023 dönemi kira ödemesi - Daire: B2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 48,
+    "text": "Mart 2023 kira ödemesi daire 12",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 104,
+    "text": "Nisan/2024 aidat - A3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 239,
+    "text": "A4 dairesi depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 112,
+    "text": "B4 dairesi aidat ödemesi Mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 267,
+    "text": "C1 depozito Nisan 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 143,
+    "text": "12 dairesi aidat ödemesi Ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 191,
+    "text": "3 kapora Mart 2024",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 213,
+    "text": "Kapora ödemesi 35",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 178,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 275,
+    "text": "A1 depozito Ekim 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 119,
+    "text": "Site yönetim aidatı Mayıs 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 98,
+    "text": "B4 dairesi aidat ödemesi Aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 166,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 73,
+    "text": "Daire A2 - Nisan kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 53,
+    "text": "Ekim/2024 dönemi kira ödemesi - Daire: A4",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 169,
+    "text": "Kapora - C3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 200,
+    "text": "A4 dairesi için kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 190,
+    "text": "Ön ödeme kapora 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 277,
+    "text": "Depozito bedeli daire A3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 18,
+    "text": "Kasım/2024 dönemi kira ödemesi - Daire: A2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 17,
+    "text": "Kira bedeli Haziran 2023 dönem C2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 293,
+    "text": "Güvence depozito A4",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 219,
+    "text": "12 numaralı daire kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 103,
+    "text": "Site aidatı - Mayıs 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 49,
+    "text": "Kira bedeli Nisan 2024 dönem 3",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 254,
+    "text": "Depozito - B3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 196,
+    "text": "Daire C3 kapora ödemesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 140,
+    "text": "Ekim ayı apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 145,
+    "text": "2 aidat Aralık/2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 181,
+    "text": "3 dairesi için kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 111,
+    "text": "Site aidatı - Nisan 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 16,
+    "text": "Ekim 2023 kira ödemesi daire A4",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 29,
+    "text": "Mayıs/2023 kira - 24",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 225,
+    "text": "Depozito bedeli daire 3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 269,
+    "text": "Teminat bedeli Nisan 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 100,
+    "text": "Site yönetim aidatı Eylül 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 61,
+    "text": "Kira - Aralık 2023 - A5 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 160,
+    "text": "Ön ödeme kapora D1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 185,
+    "text": "Kapora ödemesi 24",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 167,
+    "text": "12 kapora Haziran 2024",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 209,
+    "text": "Yeni kiralama kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 189,
+    "text": "Ön ödeme kapora A2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 82,
+    "text": "Site yönetim aidatı Eylül 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 205,
+    "text": "C2 numaralı daire kapora bedeli",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 228,
+    "text": "Güvence bedeli D1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 51,
+    "text": "Daire A2 - Kasım kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 24,
+    "text": "A1 dairesi Temmuz 2023 kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 234,
+    "text": "Depozito - A2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 7,
+    "text": "Daire C1 - Eylül kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 123,
+    "text": "Apartman aidatı Ekim 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 71,
+    "text": "B5 numaralı daire Temmuz ayı kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 208,
+    "text": "Kapora ödemesi 1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 186,
+    "text": "A4 dairesi için kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 268,
+    "text": "Depozito - A2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 23,
+    "text": "D2 dairesi Şubat 2023 kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 211,
+    "text": "C2 kapora Kasım 2024",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 11,
+    "text": "Eylül ayı kira bedeli B1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 131,
+    "text": "Aidat ödemesi 12",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 148,
+    "text": "Site yönetim aidatı Ekim 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 279,
+    "text": "Depozito bedeli daire C1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 174,
+    "text": "Kapora - B4",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 69,
+    "text": "Haziran/2023 dönemi kira ödemesi - Daire: B2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 109,
+    "text": "Site aidatı - Ekim 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 108,
+    "text": "Aidat - Nisan 2023 - A2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 124,
+    "text": "Site yönetim aidatı Nisan 2024",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 41,
+    "text": "Kira - Mayıs 2024 - A5 nolu daire",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 202,
+    "text": "C1 dairesi için kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 65,
+    "text": "Temmuz 2024 kira ödemesi daire A4",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 163,
+    "text": "Daire D2 kapora ödemesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 157,
+    "text": "B2 kapora Mayıs 2023",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 282,
+    "text": "3 teminat ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 194,
+    "text": "Kapora - A1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 125,
+    "text": "Site yönetim aidatı Eylül 2023",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 255,
+    "text": "Depozito ödemesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 15,
+    "text": "D2 dairesi Mayıs 2023 kira ödemesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 294,
+    "text": "Teminat bedeli Mart 2024",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 299,
+    "text": "Güvence bedeli - B1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 130,
+    "text": "Ekim ayı apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 216,
+    "text": "Kapora bedeli daire C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 90,
+    "text": "Kasım ayı aidat bedeli",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 262,
+    "text": "Güvence bedeli - D2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 261,
+    "text": "Güvence depozito 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 34,
+    "text": "Haziran/2024 kira - B5",
+    "label": "kira_odemesi"
+  }
+]

@@ -7,6 +7,7 @@ Mock data'daki öncelik sırasına göre implement edilmiştir.
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 
@@ -97,6 +98,7 @@ def match_receipt(
         receiver_iban=receiver_iban,
         receiver_name=receiver_name,
         amount=amount,
+        description=description,
         owners=owners,
         properties=properties,
     )
@@ -198,6 +200,7 @@ def _find_candidates(
     receiver_iban: str,
     receiver_name: str,
     amount: Optional[float],
+    description: str,
     owners: List[Dict[str, Any]],
     properties: List[Dict[str, Any]],
 ) -> List[Dict[str, Any]]:

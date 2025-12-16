@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 108,
+    "text": "Ekim kira Daire: 15",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 86,
+    "text": "Nisa 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 496,
+    "text": "Depozito Daire: B1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 414,
+    "text": "Kapora 15",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 0,
+    "text": "Ağu kira A2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 30,
+    "text": "nisan kira daire: a2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 201,
+    "text": "Aidat Kas",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 166,
+    "text": "Site aidatı Mar",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 280,
+    "text": "Aidat haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 153,
+    "text": "Site aidatı Ağu",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 352,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 396,
+    "text": "Kapora daire: 22",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 440,
+    "text": "Kapora 5",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 490,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 379,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 596,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 147,
+    "text": "kira mayı",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 150,
+    "text": "Aidat Aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 184,
+    "text": "Site aidatı Aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 40,
+    "text": "Kira Haz",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 474,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 344,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 195,
+    "text": "Site aidatı Şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 144,
+    "text": "kasım 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 226,
+    "text": "aidat mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 259,
+    "text": "Aidat Şuba",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 503,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 291,
+    "text": "Site aidatı May",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 519,
+    "text": "Depozito daire: A2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 489,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 17,
+    "text": "kira mayıs",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 253,
+    "text": "Aidat Temm",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 439,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 297,
+    "text": "aidat ağu",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 35,
+    "text": "Kira Mar",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 540,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 182,
+    "text": "Site aidatı Mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 172,
+    "text": "Site aidatı Mar",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 585,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 90,
+    "text": "ekim kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 520,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 423,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 422,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 431,
+    "text": "Kapora daire: 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 588,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 222,
+    "text": "Site aidatı Ocak",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 340,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 403,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 154,
+    "text": "Site aidatı Mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 110,
+    "text": "Kas kira daire: 3",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 285,
+    "text": "Aidat Temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 353,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 241,
+    "text": "site aidatı mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 16,
+    "text": "Kira ağustos",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 266,
+    "text": "Aidat Eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 260,
+    "text": "eki aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 276,
+    "text": "site aidatı ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 314,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 99,
+    "text": "kira ağus",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 473,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 254,
+    "text": "Site aidatı Temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 553,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 391,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 298,
+    "text": "site aidatı ocak",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 262,
+    "text": "Mart aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 592,
+    "text": "Depozito daire: 8",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 205,
+    "text": "aidat haz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 131,
+    "text": "Nisa kira D:1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 577,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 25,
+    "text": "Eyl kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 8,
+    "text": "Mayıs 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 141,
+    "text": "mayıs kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 212,
+    "text": "Aidat Eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 548,
+    "text": "Depozito No: 3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 528,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 405,
+    "text": "kapora no: a2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 594,
+    "text": "depozito daire: a1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 507,
+    "text": "depozito no: 12",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 472,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 95,
+    "text": "kira ocak",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 388,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 333,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 267,
+    "text": "aidat mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 248,
+    "text": "Tem aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 415,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 137,
+    "text": "temmuz kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 465,
+    "text": "Depozito D:5",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 323,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 140,
+    "text": "Ağu kira D:A2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 504,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 452,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 136,
+    "text": "Kira Ağu",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 288,
+    "text": "Site aidatı Ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 255,
+    "text": "Aidat Kası",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 175,
+    "text": "Aidat şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 358,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 404,
+    "text": "Kapora Daire: 3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 84,
+    "text": "temmuz kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 163,
+    "text": "Aidat ocak",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 409,
+    "text": "Kapora d:15",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 527,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 590,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 345,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 85,
+    "text": "Kira Eylü",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 119,
+    "text": "eki kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 541,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 11,
+    "text": "haziran kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 510,
+    "text": "depozito d:a1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 450,
+    "text": "Depozito d:3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 410,
+    "text": "kapora no: 3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 19,
+    "text": "Kira Oca",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 181,
+    "text": "Aidat Mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 445,
+    "text": "Kapora d:2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 360,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 143,
+    "text": "şuba kira daire: 15",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 83,
+    "text": "Kira Mayı",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 313,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 557,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 412,
+    "text": "Kapora d:15",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 299,
+    "text": "Şubat aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 53,
+    "text": "kasım 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 78,
+    "text": "Eylü 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 458,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 495,
+    "text": "Depozito 22",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 87,
+    "text": "aralık kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 286,
+    "text": "site aidatı şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 61,
+    "text": "Kira May",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 484,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 91,
+    "text": "oca 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 133,
+    "text": "Kira Temmuz",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 246,
+    "text": "Site aidatı Şuba",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 356,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 237,
+    "text": "Ekim aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 170,
+    "text": "Site aidatı Şuba",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 100,
+    "text": "ağustos 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 55,
+    "text": "Ocak kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 481,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 217,
+    "text": "Mart aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 427,
+    "text": "kapora no: a1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 116,
+    "text": "mayıs kira daire: 2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 454,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 434,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 68,
+    "text": "Mayı 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 337,
+    "text": "Kapora d:1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 244,
+    "text": "Aralık aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 591,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 571,
+    "text": "Depozito d:15",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 491,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 501,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 563,
+    "text": "Depozito daire: A1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 199,
+    "text": "Site aidatı Temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 532,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 60,
+    "text": "nisan kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 179,
+    "text": "Aidat Ara",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 324,
+    "text": "kapora 8",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 218,
+    "text": "aidat şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 46,
+    "text": "Ara kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 398,
+    "text": "Kapora D:A2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 328,
+    "text": "Kapora d:3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 318,
+    "text": "Kapora Daire: 8",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 339,
+    "text": "Kapora d:22",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 112,
+    "text": "Mayı kira D:22",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 89,
+    "text": "Kira haziran",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 80,
+    "text": "ağu 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 561,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 15,
+    "text": "Ağu kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 441,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 127,
+    "text": "mart 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 113,
+    "text": "şubat kira No: 2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 334,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 186,
+    "text": "Site aidatı Nis",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 400,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 7,
+    "text": "Nisa kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 124,
+    "text": "ağustos kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 538,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 271,
+    "text": "Aidat ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 560,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 464,
+    "text": "Depozito Daire: 5",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 598,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 174,
+    "text": "tem aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 223,
+    "text": "Nisa aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 579,
+    "text": "depozito d:1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 282,
+    "text": "Aidat Eylü",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 420,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 383,
+    "text": "Kapora daire: 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 123,
+    "text": "Kira Ağustos",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 74,
+    "text": "ağus kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 478,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 368,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 31,
+    "text": "nisan 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 159,
+    "text": "aidat temm",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 73,
+    "text": "ekim 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 506,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 521,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 326,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 21,
+    "text": "Ekim 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 176,
+    "text": "Site aidatı Kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 148,
+    "text": "kira temmuz",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 243,
+    "text": "Aidat Aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 32,
+    "text": "Temm kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 177,
+    "text": "Aidat Eki",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 419,
+    "text": "Kapora daire: 1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 228,
+    "text": "Aidat Şub",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 189,
+    "text": "Şubat aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 109,
+    "text": "kira mart",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 539,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 225,
+    "text": "Mart aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 261,
+    "text": "haz aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 198,
+    "text": "Mart aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 183,
+    "text": "Site aidatı Mayı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 399,
+    "text": "kapora 8",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 169,
+    "text": "site aidatı ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 457,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 151,
+    "text": "Site aidatı Ağus",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 115,
+    "text": "Nisan kira D:22",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 584,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 24,
+    "text": "Mart kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 96,
+    "text": "Eylü 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 470,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 449,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 348,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 568,
+    "text": "depozito d:a2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 466,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 242,
+    "text": "Aidat Şuba",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 301,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 48,
+    "text": "Ekim kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 245,
+    "text": "Aidat haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 397,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 446,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 162,
+    "text": "Site aidatı mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 350,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 376,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 569,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 221,
+    "text": "Site aidatı Mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 220,
+    "text": "Aidat aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 407,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 302,
+    "text": "kapora a2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 293,
+    "text": "Site aidatı Şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 9,
+    "text": "mayıs kira d:8",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 335,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 59,
+    "text": "temm 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 234,
+    "text": "aidat şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 20,
+    "text": "ocak 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 275,
+    "text": "aralık aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 374,
+    "text": "Kapora No: 5",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 438,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 22,
+    "text": "Mar kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 448,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 134,
+    "text": "Mart kira D:B1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 233,
+    "text": "nisan aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 126,
+    "text": "mayıs kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 240,
+    "text": "ekim aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 361,
+    "text": "kapora a1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 23,
+    "text": "Temm 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 509,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 463,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 92,
+    "text": "Kira Şuba",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 370,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 430,
+    "text": "Kapora d:8",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 6,
+    "text": "Ocak 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 351,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 64,
+    "text": "Şuba kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 498,
+    "text": "Depozito No: A2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 203,
+    "text": "Aidat Kas",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 62,
+    "text": "mayıs 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 306,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 406,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 149,
+    "text": "kira oca",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 191,
+    "text": "şuba aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 373,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 471,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 487,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 447,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 363,
+    "text": "Kapora Daire: 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 552,
+    "text": "depozito d:1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 460,
+    "text": "Depozito Daire: 15",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 219,
+    "text": "site aidatı tem",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 97,
+    "text": "Kira Haz",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 82,
+    "text": "Kira Şubat",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 530,
+    "text": "Depozito d:2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 476,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 210,
+    "text": "site aidatı mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 70,
+    "text": "Eyl 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 206,
+    "text": "Aidat Mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 103,
+    "text": "ağustos kira No: B1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 238,
+    "text": "Aidat eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 486,
+    "text": "depozito d:15",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 413,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 317,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 36,
+    "text": "oca kira d:15",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 272,
+    "text": "aralık aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 542,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 354,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 79,
+    "text": "Kira May",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 502,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 111,
+    "text": "Kira Mar",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 200,
+    "text": "mayıs aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 56,
+    "text": "Kası kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 349,
+    "text": "Kapora 1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 482,
+    "text": "Depozito D:5",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 595,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 573,
+    "text": "depozito daire: 3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 307,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 273,
+    "text": "ağus aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 283,
+    "text": "Site aidatı Haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 239,
+    "text": "Mayı aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 187,
+    "text": "nisan aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 424,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 359,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 14,
+    "text": "mart 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 443,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 250,
+    "text": "Eki aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 468,
+    "text": "Depozito D:12",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 367,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 157,
+    "text": "aidat haz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 277,
+    "text": "Site aidatı şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 309,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 567,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 524,
+    "text": "Depozito d:B1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 586,
+    "text": "depozito d:5",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 531,
+    "text": "depozito daire: 12",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 554,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 2,
+    "text": "Mart kira d:22",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 485,
+    "text": "Depozito No: 5",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 575,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 168,
+    "text": "aidat haz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 411,
+    "text": "kapora a1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 357,
+    "text": "Kapora D:B1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 380,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 479,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 329,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 72,
+    "text": "kira eylül",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 287,
+    "text": "ağus aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 402,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 268,
+    "text": "site aidatı kas",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 101,
+    "text": "Ekim kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 251,
+    "text": "Site aidatı şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 315,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 381,
+    "text": "Kapora D:15",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 572,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 319,
+    "text": "Kapora D:22",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 171,
+    "text": "Aralık aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 249,
+    "text": "Site aidatı Eylü",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 303,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 57,
+    "text": "temmuz kira d:2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 54,
+    "text": "Haz kira D:22",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 543,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 366,
+    "text": "Kapora A2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 196,
+    "text": "May aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 214,
+    "text": "Site aidatı May",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 365,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 389,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 312,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 582,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 300,
+    "text": "kapora no: 12",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 330,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 13,
+    "text": "Kira Aral",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 372,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 98,
+    "text": "Kira Eylü",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 232,
+    "text": "Aidat kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 213,
+    "text": "Mart aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 269,
+    "text": "Site aidatı Eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 294,
+    "text": "şubat aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 456,
+    "text": "Depozito d:B1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 545,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 343,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 279,
+    "text": "aral aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 534,
+    "text": "Depozito No: A1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 346,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 500,
+    "text": "Depozito 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 494,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 77,
+    "text": "Kira Ekim",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 483,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 41,
+    "text": "kira ara",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 546,
+    "text": "Depozito d:A1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 488,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 121,
+    "text": "Kas 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 480,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 551,
+    "text": "Depozito Daire: 3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 505,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 161,
+    "text": "ekim aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 336,
+    "text": "Kapora 8",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 43,
+    "text": "Kira Mart",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 432,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 369,
+    "text": "Kapora d:8",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 1,
+    "text": "haziran kira D:5",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 292,
+    "text": "Eki aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 105,
+    "text": "Şuba 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 252,
+    "text": "Site aidatı Şuba",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 107,
+    "text": "Mayı 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 578,
+    "text": "depozito no: 15",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 426,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 274,
+    "text": "Site aidatı Kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 52,
+    "text": "Ekim kira No: B1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 535,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 75,
+    "text": "Oca 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 114,
+    "text": "Kası kira d:2",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 364,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 555,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 45,
+    "text": "kira eki",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 71,
+    "text": "Kira Kasım",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 152,
+    "text": "Site aidatı Mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 263,
+    "text": "Mar aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 18,
+    "text": "eylül kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 425,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 395,
+    "text": "kapora no: 22",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 429,
+    "text": "Kapora D:12",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 197,
+    "text": "eylül aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 284,
+    "text": "aidat ocak",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 295,
+    "text": "Aidat Ara",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 104,
+    "text": "Haz kira D:8",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 44,
+    "text": "Kira şubat",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 559,
+    "text": "Depozito 1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 459,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 38,
+    "text": "Ocak kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 385,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 536,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 118,
+    "text": "Haz kira daire: 12",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 565,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 106,
+    "text": "Kira Eyl",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 467,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 392,
+    "text": "Kapora D:2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 580,
+    "text": "Depozito D:1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 160,
+    "text": "aidat temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 451,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 437,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 47,
+    "text": "Kası kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 549,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 247,
+    "text": "Site aidatı Temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 180,
+    "text": "aidat şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 28,
+    "text": "Ocak 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 331,
+    "text": "kapora d:a1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 533,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 34,
+    "text": "Şubat kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 122,
+    "text": "eylül kira 8",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 544,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 102,
+    "text": "aral 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 599,
+    "text": "Depozito d:A1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 469,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 27,
+    "text": "Ekim kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 229,
+    "text": "Site aidatı Ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 556,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 570,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 455,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 135,
+    "text": "temmuz 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 178,
+    "text": "mart aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 257,
+    "text": "Eylül aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 308,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 508,
+    "text": "Depozito D:22",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 128,
+    "text": "Eylü 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 39,
+    "text": "Kira Haz",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 386,
+    "text": "Kapora No: B1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 497,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 139,
+    "text": "Mayıs 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 428,
+    "text": "Kapora B1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 88,
+    "text": "aralık 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 164,
+    "text": "Site aidatı ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 574,
+    "text": "depozito daire: 12",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 5,
+    "text": "temmuz kira No: 5",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 65,
+    "text": "nisan 2024 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 145,
+    "text": "May kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 235,
+    "text": "ocak aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 193,
+    "text": "Aidat Mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 418,
+    "text": "Kapora No: 12",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 256,
+    "text": "Site aidatı Şub",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 550,
+    "text": "güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 587,
+    "text": "depozito daire: 8",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 138,
+    "text": "ekim kira daire: A1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 3,
+    "text": "May 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 341,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 442,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 192,
+    "text": "Site aidatı aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 231,
+    "text": "site aidatı ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 93,
+    "text": "Kira Ocak",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 236,
+    "text": "ağustos aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 281,
+    "text": "Site aidatı Ağus",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 12,
+    "text": "Aral kira No: 8",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 33,
+    "text": "Nisa kira d:A1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 517,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 417,
+    "text": "Kapora B1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 492,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 416,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 362,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 230,
+    "text": "site aidatı şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 67,
+    "text": "ağustos kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 311,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 475,
+    "text": "depozito no: 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 258,
+    "text": "Ağus aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 215,
+    "text": "Ekim aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 209,
+    "text": "Site aidatı Kas",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 566,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 204,
+    "text": "Ağus aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 342,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 371,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 597,
+    "text": "Depozito A2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 576,
+    "text": "Depozito daire: B1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 310,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 202,
+    "text": "aidat şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 564,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 69,
+    "text": "temmuz 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 51,
+    "text": "Kasım kira A1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 355,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 516,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 66,
+    "text": "kira aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 165,
+    "text": "Site aidatı Eki",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 377,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 433,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 529,
+    "text": "Depozito d:A1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 581,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 593,
+    "text": "depozito daire: a2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 81,
+    "text": "Kira ocak",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 76,
+    "text": "May kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 453,
+    "text": "Depozito 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 514,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 190,
+    "text": "Site aidatı Nis",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 523,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 375,
+    "text": "Kapora Daire: A1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 320,
+    "text": "Kapora 8",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 321,
+    "text": "Kapora daire: 8",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 173,
+    "text": "Aidat Mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 525,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 304,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 290,
+    "text": "Site aidatı Haz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 117,
+    "text": "Ara kira No: A1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 50,
+    "text": "Kira Haziran",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 129,
+    "text": "mart kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 265,
+    "text": "Site aidatı haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 224,
+    "text": "Aidat Ara",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 390,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 327,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 537,
+    "text": "Depozito d:12",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 216,
+    "text": "Site aidatı Şuba",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 511,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 130,
+    "text": "Aralık 2025 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 158,
+    "text": "Site aidatı Haz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 4,
+    "text": "Kira Mayı",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 332,
+    "text": "kapora daire: b1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 94,
+    "text": "kira şubat",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 378,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 227,
+    "text": "Site aidatı Mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 547,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 289,
+    "text": "Aidat Ağu",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 347,
+    "text": "Kapora 22",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 125,
+    "text": "eylül kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 562,
+    "text": "Depozito 1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 401,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 394,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 155,
+    "text": "Aidat Ara",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 436,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 325,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 435,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 207,
+    "text": "aidat kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 132,
+    "text": "Aral kira 1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 188,
+    "text": "Aidat Eyl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 211,
+    "text": "ekim aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 499,
+    "text": "Depozito No: 15",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 512,
+    "text": "Depozito d:A1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 461,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 589,
+    "text": "depozito d:a1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 526,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 493,
+    "text": "Depozito Daire: 8",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 384,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 146,
+    "text": "Şub kira 22",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 518,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 296,
+    "text": "Şubat aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 29,
+    "text": "Ara 2023 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 156,
+    "text": "Aidat mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 63,
+    "text": "Hazi kira daire: 8",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 167,
+    "text": "kasım aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 120,
+    "text": "Kira ekim",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 338,
+    "text": "ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 37,
+    "text": "Mayı kira 3",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 316,
+    "text": "kapora 3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 393,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 462,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 408,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 513,
+    "text": "Güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 477,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 522,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 444,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 49,
+    "text": "Kira eylül",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 58,
+    "text": "haziran kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 322,
+    "text": "kapora d:b1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 421,
+    "text": "Kapora D:A1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 264,
+    "text": "nisan aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 382,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 387,
+    "text": "Ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 305,
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "id": 270,
+    "text": "Aidat Tem",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 194,
+    "text": "Site aidatı aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 583,
+    "text": "Depozito d:15",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 278,
+    "text": "aidat şuba",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 26,
+    "text": "mayıs kira daire: b1",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 558,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 142,
+    "text": "nisan kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 42,
+    "text": "Nis kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "id": 515,
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "id": 185,
+    "text": "temmuz aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 208,
+    "text": "aidat nis",
+    "label": "aidat_odemesi"
+  },
+  {
+    "id": 10,
+    "text": "Ekim kira daire: 1",
+    "label": "kira_odemesi"
+  }
+]

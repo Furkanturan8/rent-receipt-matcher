@@ -128,30 +128,73 @@ def extract_address_keywords(address: str) -> List[str]:
         address: Adres metni.
     
     Dönen:
-        Keywords listesi.
+        Keywords listesi (normalize edilmiş, unique).
     """
     if not address:
         return []
     
+    import re
     keywords = []
     address_upper = address.upper()
     
-    # Mahalle, sokak, cadde, daire, kat gibi önemli kelimeleri bul
-    patterns = [
-        r"([A-ZÇĞİÖŞÜ\s]+)\s+MAH[\.]?",
-        r"([A-ZÇĞİÖŞÜ\s]+)\s+SOK[\.]?",
-        r"([A-ZÇĞİÖŞÜ\s]+)\s+CAD[\.]?",
-        r"DAİRE[:\s]*([0-9]+)",
-        r"KAT[:\s]*([0-9]+)",
-        r"NO[:\s]*([0-9]+)",
+    # Türkçe karakter normalizasyonu (matching için)
+    turkish_chars = {
+        "İ": "I", "Ş": "S", "Ğ": "G", "Ü": "U", "Ö": "O", "Ç": "C",
+        "ı": "I", "ş": "S", "ğ": "G", "ü": "U", "ö": "O", "ç": "C",
+    }
+    for tr_char, en_char in turkish_chars.items():
+        address_upper = address_upper.replace(tr_char, en_char)
+    
+    # OCR hataları düzelt (isim için)
+    # "M0DA" -> "MODA", "K1RA" -> "KIRA"
+    address_upper = re.sub(r'([A-Z])0([A-Z])', r'\1O\2', address_upper)
+    address_upper = re.sub(r'([A-Z])1([A-Z])', r'\1I\2', address_upper)
+    
+    # 1. Mahalle/Sokak/Cadde adlarını yakala (kelime bazında)
+    # "BEŞİKTAŞ SİNANPAŞA MAH" -> ["BESIKTAS", "SINANPASA"]
+    # "Sinanpaşa Mahallesi" -> ["SINANPASA"]
+    mah_patterns = [
+        r"(\w+(?:\s+\w+)?)\s+MAH(?:ALLE)?(?:SI)?[\.]?",  # SİNANPAŞA MAH, MODA MAHALLESI
+        r"(\w+)\s+SOK(?:AK)?[\.]?",  # BESTEKAR SOKAK
+        r"(\w+)\s+CAD(?:DESI)?[\.]?",  # DENİZ CADDESİ
     ]
     
-    import re
-    for pattern in patterns:
+    for pattern in mah_patterns:
         matches = re.findall(pattern, address_upper)
-        keywords.extend([m.strip() for m in matches if m.strip()])
+        for match in matches:
+            # Her kelimeyi ayrı keyword yap
+            for word in match.split():
+                if len(word) > 2:  # Çok kısa kelimeleri atla
+                    keywords.append(word)
     
-    return keywords
+    # 2. Genel mahalle/semt isimleri (pattern olmadan)
+    # "MODA", "MECIDIYEKOY", "BESIKTAS" gibi büyük harfli kelimeler
+    # Ama sadece adres-benzeri context'te (stopwords değil)
+    stopwords = {"KIRA", "RENT", "KASIM", "ARALIK", "OCAK", "SUBAT", "MART", 
+                 "NISAN", "MAYIS", "HAZIRAN", "TEMMUZ", "AGUSTOS", "EYLUL", 
+                 "EKIM", "TL", "TRY", "USD", "EUR", "FAST", "MESAJ", "HAVALE"}
+    
+    # 3-10 harf arası kelimeleri al (çok kısa veya çok uzun olmasın)
+    words = re.findall(r'\b([A-Z]{3,15})\b', address_upper)
+    for word in words:
+        if word not in stopwords and not word.isdigit():
+            keywords.append(word)
+    
+    # 3. Daire/Kat/No numaralarını yakala
+    # "DAİRE:8", "Daire:12", "No:15" -> "DAIRE_8", "DAIRE_12", "NO_15"
+    num_patterns = [
+        (r"DAIRE[:\s]*([0-9]+)", "DAIRE"),
+        (r"KAT[:\s]*([0-9]+)", "KAT"),
+        (r"NO[:\s]*([0-9]+)", "NO"),
+    ]
+    
+    for pattern, prefix in num_patterns:
+        matches = re.findall(pattern, address_upper)
+        for num in matches:
+            keywords.append(f"{prefix}_{num}")
+    
+    # 4. Deduplicate
+    return list(set(keywords))
 
 
 def address_similarity(address1: str, address2: str) -> float:

@@ -58,6 +58,7 @@ def normalize_name(name: Optional[str]) -> str:
     - Türkçe karakterleri normalize et (ı->I, ş->S, ğ->G, ü->U, ö->O, ç->C)
     - Çift boşlukları tek boşluğa indir
     - Başta/sonda boşlukları temizle
+    - OCR hataları düzelt (1 -> I, 0 -> O)
     
     Parametreler:
         name: Ham isim string'i.
@@ -68,8 +69,31 @@ def normalize_name(name: Optional[str]) -> str:
     if not name:
         return ""
     
+    # OCR hataları düzelt (ÖNCE, uppercase'den önce)
+    # lowercase l -> I, 1 -> I, 0 -> O
+    normalized = name
+    
+    # Harfler arası lowercase l -> i (sonra uppercase olunca I olacak)
+    normalized = re.sub(r'([A-Za-z])l([A-Za-z])', r'\1i\2', normalized)
+    
     # Büyük harfe çevir
-    normalized = name.upper()
+    normalized = normalized.upper()
+    
+    # OCR hataları düzelt (uppercase'den sonra)
+    # 1 -> I, 0 -> O (isim için)
+    # Kelime başı
+    if normalized.startswith("1"):
+        normalized = "I" + normalized[1:]
+    if normalized.startswith("0"):
+        normalized = "O" + normalized[1:]
+    
+    # Boşluk sonrası
+    normalized = normalized.replace(" 1", " I")
+    normalized = normalized.replace(" 0", " O")
+    
+    # Harfler arası (IBRAHIM, OSMAN gibi)
+    normalized = re.sub(r'([A-Z])1([A-Z])', r'\1I\2', normalized)
+    normalized = re.sub(r'([A-Z])0([A-Z])', r'\1O\2', normalized)
     
     # Türkçe karakterleri normalize et
     turkish_chars = {
@@ -125,20 +149,21 @@ def normalize_amount(amount_text: Optional[str]) -> Optional[float]:
     
     # Nokta ve virgül işaretlerini standardize et
     # Türk formatı: 45.000,00 -> 45000.00
-    # İngiliz formatı: 45000.00 -> 45000.00
+    # İngiliz formatı: 45,000.00 -> 45000.00
     
-    # Binlik ayırıcı nokta, ondalık ayırıcı virgül ise
+    # Eğer hem virgül hem nokta varsa, en sonuncusu decimal separator
     if "," in cleaned and "." in cleaned:
-        # Son virgülden önceki kısım ondalık
-        parts = cleaned.rsplit(",", 1)
-        if len(parts) == 2 and len(parts[1]) <= 2:
-            # Virgül ondalık ayırıcı
-            decimal_part = parts[1]
-            integer_part = parts[0].replace(".", "")
-            cleaned = f"{integer_part}.{decimal_part}"
-        else:
-            # Nokta ondalık ayırıcı, virgül binlik
+        last_comma_pos = cleaned.rfind(",")
+        last_dot_pos = cleaned.rfind(".")
+        
+        if last_comma_pos > last_dot_pos:
+            # Virgül en sonda → Virgül ondalık, nokta binlik
+            # Örn: 45.000,00 → 45000.00
             cleaned = cleaned.replace(".", "").replace(",", ".")
+        else:
+            # Nokta en sonda → Nokta ondalık, virgül binlik  
+            # Örn: 45,000.00 → 45000.00
+            cleaned = cleaned.replace(",", "")
     elif "," in cleaned:
         # Sadece virgül var - ondalık ayırıcı olabilir
         if cleaned.count(",") == 1 and len(cleaned.split(",")[1]) <= 2:
