@@ -23,57 +23,48 @@ source .venv/bin/activate
 
 # Function definitions
 train_intent() {
-    echo -e "${BLUE}🚀 Intent Classification model eğitimi başlıyor...${NC}"
-    python src/nlp/train_intent_classifier.py
+    echo -e "${BLUE}🚀 Intent Classification model eğitimi başlıyor... (v4 Production)${NC}"
+    python src/nlp/v4/train_intent_classifier.py
 }
 
 train_ner() {
-    echo -e "${BLUE}🚀 NER model eğitimi başlıyor...${NC}"
-    python src/nlp/train_ner.py
+    echo -e "${BLUE}🚀 NER model eğitimi başlıyor... (v4 Production)${NC}"
+    python src/nlp/v4/train_ner.py
 }
 
 inference() {
-    echo -e "${BLUE}🎯 v3 Robust Inference (Hybrid: BERT + Regex)${NC}"
+    echo -e "${BLUE}🎯 v4 Production Inference (REGEX-first + BERT fallback)${NC}"
     echo -e "${YELLOW}   → Multi-intent detection ✅${NC}"
-    echo -e "${YELLOW}   → Case-insensitive ✅${NC}"
-    echo -e "${YELLOW}   → Regex fallback ✅${NC}"
+    echo -e "${YELLOW}   → OCR error correction ✅${NC}"
+    echo -e "${YELLOW}   → Multi-month support ✅${NC}"
+    echo -e "${YELLOW}   → Confidence-based selection ✅${NC}"
     echo ""
-    python src/nlp/v3/inference_robust.py
+    python src/nlp/v4/inference_v4.py
 }
 
 inference_ner() {
-    echo -e "${BLUE}🔍 NER Extraction demo çalıştırılıyor...${NC}"
-    python src/nlp/v3/inference_ner.py
-}
-
-inference_v2() {
-    echo -e "${BLUE}🎯 v2 Intent Inference (OCR-Aware)${NC}"
-    python src/nlp/v2/inference.py
-}
-
-inference_v1() {
-    echo -e "${BLUE}🎯 v1 Intent Inference (Basic)${NC}"
-    python src/nlp/v1/inference.py
+    echo -e "${BLUE}🔍 NER Extraction demo çalıştırılıyor... (v4 Production)${NC}"
+    python src/nlp/v4/inference_v4.py
 }
 
 generate_data() {
-    echo -e "${BLUE}📊 Synthetic data üretiliyor...${NC}"
-    python scripts/generate_synthetic_data.py
+    echo -e "${BLUE}📊 V4 Production dataset üretiliyor...${NC}"
+    python scripts/generate_v4_dataset.py
 }
 
 show_results() {
-    echo -e "${GREEN}📈 Model Sonuçları:${NC}"
-    if [ -f "models/intent_classifier/test_results.json" ]; then
-        cat models/intent_classifier/test_results.json | python -m json.tool | grep -E "(accuracy|precision|recall|f1)"
+    echo -e "${GREEN}📈 Model Sonuçları (v4 Production):${NC}"
+    if [ -f "models/v4_production/intent_classifier/test_results.json" ]; then
+        cat models/v4_production/intent_classifier/test_results.json | python -m json.tool | grep -E "(accuracy|precision|recall|f1)"
     else
         echo -e "${YELLOW}Model henüz eğitilmedi!${NC}"
     fi
 }
 
 show_confusion_matrix() {
-    if [ -f "models/intent_classifier/confusion_matrix.png" ]; then
+    if [ -f "confusion_matrix.png" ]; then
         echo -e "${GREEN}📊 Confusion matrix açılıyor...${NC}"
-        open models/intent_classifier/confusion_matrix.png
+        open confusion_matrix.png
     else
         echo -e "${YELLOW}Confusion matrix bulunamadı!${NC}"
     fi
@@ -92,10 +83,8 @@ show_help() {
     echo "  pipeline-json <json>              - Process OCR JSON"
     echo ""
     echo "🎯 NLP TEST:"
-    echo "  test              - v3 Robust inference (BERT+Regex Hybrid)"
-    echo "  test-ner          - NER extraction demo"
-    echo "  test-v2           - v2 OCR-Aware inference"
-    echo "  test-v1           - v1 Basic inference"
+    echo "  test              - v4 Production inference (REGEX-first + BERT fallback)"
+    echo "  test-ner          - NER extraction demo (v4 Production)"
     echo ""
     echo "🔧 TRAINING:"
     echo "  train             - Intent classification model eğit"
@@ -108,9 +97,9 @@ show_help() {
     echo "Örnekler:"
     echo "  ./run.sh pipeline-pdf data/halkbank.pdf halkbank"
     echo "  ./run.sh pipeline-pdf data/halkbank.pdf --match     # With matching"
-    echo "  ./run.sh test           # v3 Robust test et"
+    echo "  ./run.sh test           # v4 Production test et"
     echo "  ./run.sh test-ner       # NER test et"
-    echo "  ./run.sh train          # Intent model eğit"
+    echo "  ./run.sh train          # Intent model eğit (v4)"
 }
 
 pipeline() {
@@ -180,12 +169,6 @@ case "$1" in
         ;;
     test-ner)
         inference_ner
-        ;;
-    test-v2)
-        inference_v2
-        ;;
-    test-v1)
-        inference_v1
         ;;
     data)
         generate_data
