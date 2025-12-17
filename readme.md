@@ -1,79 +1,109 @@
-# 🏢 Akıllı Emlak Ödeme Yönetim Sistemi
+# Akıllı Emlak Ödeme Yönetim Sistemi
 
 **OCR + NLP + AI Chatbot + Dashboard** - Tam Entegre Dekont İşleme Sistemi
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-brightgreen.svg)](https://streamlit.io/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 ---
 
-## 🎯 Proje Özeti
+## Proje Özeti
 
-Emlak sektörü için **tam otomatik dekont işleme sistemi**. PDF dekontları yükleyin, sistem otomatik olarak:
-- 📄 OCR ile metin çıkarır (4 banka desteği)
-- 🎯 Ödeme tipini belirler (Intent Classification)
-- 🏷️ Önemli bilgileri çıkarır (NER)
-- 🔗 Veritabanı ile eşleştirir (Fuzzy Matching)
-- 🤖 AI ile konuşarak sorgu yaparsınız
-- 📊 Web dashboard'da sonuçları görürsünüz
+Emlak sektörü için tam otomatik dekont işleme sistemi. PDF dekontları yükleyin, sistem otomatik olarak:
+- OCR ile metin çıkarır (4 banka desteği)
+- Ödeme tipini belirler (Intent Classification)
+- Önemli bilgileri çıkarır (NER)
+- Veritabanı ile eşleştirir (Fuzzy Matching)
+- AI ile konuşarak sorgu yaparsınız
+- Web dashboard'da sonuçları görürsünüz
 
-### ✅ Tamamlanan Özellikler
+### Tamamlanan Özellikler
 
 **7 Ana Modül:**
-- ✅ **OCR Extraction** - 4 banka desteği (Ziraat, Halkbank, Yapı Kredi, Kuveyt Türk)
-- ✅ **Intent Classification** - DistilBERT-based, %100 accuracy (real data)
-- ✅ **Named Entity Recognition** - Hybrid BERT+Regex, %99.8 F1-score
-- ✅ **Full Pipeline** - PDF → JSON tek komutla
-- ✅ **Receipt Matching** - Fuzzy matching, %87 confidence (real PDF)
-- ✅ **Rule-based Chatbot** - Template-based + NLP entegrasyonu
-- ✅ **Streamlit Dashboard** - Modern web UI + PDF upload + AI chat
+- OCR Extraction - 4 banka desteği (Ziraat, Halkbank, Yapı Kredi, Kuveyt Türk)
+- Intent Classification - DistilBERT-based, v4 Production
+- Named Entity Recognition - Hybrid BERT+Regex, v4 Production
+- Full Pipeline - PDF → JSON tek komutla
+- Receipt Matching - Fuzzy matching, confidence-based scoring
+- Rule-based Chatbot - Template-based + NLP entegrasyonu
+- Streamlit Dashboard - Modern web UI + PDF upload + AI chat
 
 ---
 
-## 📊 Performans Metrikleri
+## Performans Metrikleri
 
-### Intent Classification (v3 Robust)
-```
-Synthetic Data:   96.67% accuracy
-Real Data:       100.00% accuracy 🔥
-Training:         800 samples
-Inference:        <100ms/query
+### Intent Classification (v4 Production)
 
-Kategoriler:
-├─ kira_odemesi     (F1: 100%) 💯
-├─ aidat_odemesi    (F1: 100%) 💯
-├─ kapora_odemesi   (F1: 100%) 💯
-└─ depozito_odemesi (F1: 100%) 💯
-```
+**Test Sonuçları:**
+- Test Accuracy: 73.33%
+- F1-Score: 73.60%
+- Gerçek Dekont: 95.74% confidence (keyword boosting ile)
+- Dataset: 1200 samples (300 her kategori)
+- Eğitim Süresi: ~1.5 dakika
 
-### Named Entity Recognition (Hybrid BERT+Regex)
-```
-Synthetic Data:  99.81% F1-score 🔥
-Real Data:       88.00% recall
-Training:        2500 samples
-Method:          Hybrid (BERT + Regex fallback)
+**Kategori Bazlı Sonuçlar:**
+- kira_odemesi: F1 78.16%
+- aidat_odemesi: F1 77.65%
+- kapora_odemesi: F1 68.47%
+- depozito_odemesi: F1 70.13%
 
-Entity Types (11 tip):
-├─ sender, recipient    (Regex-based)
-├─ amount, currency     (Hybrid)
-├─ date, period         (Hybrid)
-├─ iban, apt_no         (Hybrid)
-└─ 3 more types         (NER-based)
-```
+**Confusion Matrix:**
+![Confusion Matrix](confusion_matrix.png)
+
+**Özellikler:**
+- Multi-month payment desteği (kasım aralık ocak)
+- OCR error correction (I→1, O→0)
+- Keyword-based confidence boosting
+- Context-based inference (apartmanı + ay → kira)
+
+### Named Entity Recognition (v4 Production)
+
+**Test Sonuçları:**
+- Test Accuracy: 99.25%
+- F1-Score: 99.28%
+- Precision: 98.71%
+- Recall: 99.85%
+- Dataset: 3600 samples
+- Eğitim Süresi: ~6.5 dakika
+
+**Entity Bazlı Sonuçlar:**
+- AMOUNT: 100% F1
+- BANK: 100% F1
+- DATE: 100% F1
+- PERIOD: 100% F1 (multi-month support)
+- RECEIVER: 100% F1
+- RECEIVER_IBAN: 100% F1
+- SENDER: 99.81% F1
+- SENDER_IBAN: 100% F1
+- TRANSACTION_TYPE: 100% F1
+- APT_NO: 98.92% F1
+- TITLE: 90.00% F1 (yeni entity)
+
+**Özellikler:**
+- REGEX-first hybrid extraction (confidence-based)
+- TITLE entity (mülk/apartman adı)
+- Multi-month period support
+- OCR error correction
+- Subword token merging fix
 
 ### Receipt Matching
-```
-Real PDF Test:   87% confidence ✅
-Auto-match:      83% success rate
-Criteria:        5 (IBAN, amount, name, address, sender)
-Performance:     <200ms/match
-```
+
+**Gerçek Dekont Test:**
+- Match Confidence: 92.86%
+- IBAN Match: 100%
+- Amount Match: 100%
+- Name Match: 100%
+- Address Match: 29%
+- Sender Match: 100%
+
+**Kriterler:**
+- IBAN: 35% ağırlık
+- Amount: 30% ağırlık
+- Name: 20% ağırlık
+- Address: 10% ağırlık
+- Sender: 5% ağırlık
+- Toplam: 100%
 
 ---
 
-## 🚀 Hızlı Başlangıç
+## Hızlı Başlangıç
 
 ### 1. Kurulum
 
@@ -90,25 +120,36 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 2. ⚠️ Model Dosyalarını İndir
+### 2. Model Eğitimi
 
-**Model dosyaları GitHub'da YOK (7.6 GB)** - İki seçenek:
+**V4 Production Modelleri:**
 
-
-#### Eğitme Komutu: ⭐
 ```bash
-# Intent Classification model eğit (~5-10 dakika)
-python src/nlp/v3/train_intent_classifier.py
+# Intent Classification model eğit (~1.5 dakika)
+python src/nlp/v4/train_intent_classifier.py
 
-# NER model eğit (~5-10 dakika)
-python src/nlp/v3/train_ner.py
+# NER model eğit (~6.5 dakika)
+python src/nlp/v4/train_ner.py
 
-# Modeller models/v3_robust/ klasörüne kaydedilir
+# Modeller models/v4_production/ klasörüne kaydedilir
 ```
 
 **Not:** Eğitilmiş modeller olmadan sadece OCR çalışır. NLP özellikleri için model eğitimi gerekli.
 
-### 3. Dashboard Başlat
+### 3. Pipeline Kullanımı
+
+```bash
+# PDF işle (otomatik banka tespiti)
+python src/pipeline/cli.py --pdf data/ziraatbank2.pdf --bank ziraatbank --pretty
+
+# Matching ile
+python src/pipeline/cli.py --pdf data/ziraatbank2.pdf --enable-matching --pretty
+
+# OCR JSON'dan
+python src/pipeline/cli.py --ocr-json results/ocr_output.json --pretty
+```
+
+### 4. Dashboard
 
 ```bash
 # Streamlit dashboard (Web UI)
@@ -117,228 +158,190 @@ streamlit run src/dashboard/app.py
 # Tarayıcıda otomatik açılır: http://localhost:8501
 ```
 
-### 4. Komut Satırından Kullan
-
-```bash
-# Full pipeline - PDF işle
-python src/pipeline/cli.py --pdf data/ziraatbank2.pdf --enable-matching --pretty
-
-# Chatbot - İnteraktif sohbet
-python src/chatbot/cli.py
-
-# OCR - Sadece dekont çıkarma
-python src/ocr/extraction/cli.py data/halkbank.pdf halkbank
-
-# Makefile ile (daha kolay)
-make pipeline-pdf PDF=data/ziraatbank2.pdf MATCH=1
-make chatbot
-make dashboard
-```
-
-### 5. Python'dan Kullan
+### 5. Python API
 
 ```python
 # Full Pipeline
 from src.pipeline.full_pipeline import ReceiptPipeline
 
 pipeline = ReceiptPipeline(enable_matching=True)
-result = pipeline.process_from_file("data/ziraatbank2.pdf")
-print(result['summary'])  # → Özet bilgi
-print(result['matching']['confidence'])  # → %87
+result = pipeline.process_from_file("data/v4_production/ner_v4.json")  # Dataset örneği
+print(result['summary'])
+# Örnek: "Kira Ödemesi | Gönderen: ALI ÇELIK | Alıcı: Emlak Ofisi | Tutar: 31000.00 TRY | Mülk: Çiçek2 | Daire: A2 | Dönem: Şubat"
+
+print(result['matching']['confidence'])
+# Örnek: 87.5
 
 # Chatbot
 from src.chatbot import RealEstateChatbot
 
 chatbot = RealEstateChatbot()
-response = chatbot.handle_message("Furkan Turan kimdir?")
-print(response)  # → Kiracı bilgileri
+response = chatbot.handle_message("Ali Çelik kimdir?")
+print(response)
+# Örnek: Kiracı bilgileri ve ödeme geçmişi
 ```
 
 ---
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 nlp-project/
-├── src/                              # Kaynak kodlar
+├── src/
 │   ├── ocr/                          # OCR & Extraction
 │   │   ├── extraction/               # Bank detection, regex patterns
 │   │   └── matching/                 # Fuzzy matching, normalizers
 │   ├── nlp/                          # NLP Models
 │   │   ├── v1/                       # İlk versiyon (synthetic)
 │   │   ├── v2/                       # OCR-aware versiyon
-│   │   └── v3/                       # Robust versiyon (final)
+│   │   ├── v3/                       # Robust versiyon
+│   │   └── v4/                       # Production versiyon (CURRENT)
+│   │       ├── inference_v4.py      # V4 inference (confidence-based)
+│   │       ├── train_intent_classifier.py
+│   │       └── train_ner.py
 │   ├── pipeline/                     # Full Pipeline
-│   │   ├── full_pipeline.py          # Ana pipeline
+│   │   ├── full_pipeline.py          # Ana pipeline (V4 entegre)
 │   │   └── cli.py                    # Komut satırı arayüzü
 │   ├── chatbot/                      # AI Chatbot
-│   │   ├── chatbot.py                # Ana chatbot mantığı
-│   │   ├── templates.py              # Yanıt şablonları
-│   │   └── cli.py                    # İnteraktif CLI
 │   ├── dashboard/                    # Web Dashboard
-│   │   └── app.py                    # Streamlit app
 │   └── backend-simulation/           # Backend servisleri
 │
-├── data/                             # Veri setleri
-│   ├── v1_synthetic/                 # Synthetic data (800 sample)
+├── data/
+│   ├── v1_synthetic/                 # Synthetic data
 │   ├── v2_ocr_aware/                 # OCR-aware data
-│   ├── v3_robust/                    # Robust data (2500 sample)
-│   └── *.pdf                         # Test dekontları (ignore edildi)
+│   ├── v3_robust/                    # Robust data
+│   └── v4_production/                # Production data (CURRENT)
+│       ├── intent_v4.json (1200 samples)
+│       └── ner_v4.json (3600 samples)
 │
-├── models/                           # ⚠️ GitHub'da YOK (7.6 GB)
-│   ├── v3_robust/                    # En son modeller
-│   │   ├── intent_classifier/        # Intent model
-│   │   └── ner/                      # NER model
-│   └── ...                           # (Kendin eğitmelisin)
+├── models/
+│   └── v4_production/                # Production modelleri (CURRENT)
+│       ├── intent_classifier/final/
+│       └── ner/final/
 │
-├── tests/                            # Test dosyaları
+├── tests/
 │   ├── mock-data.json                # Mock database
 │   └── test_receipt_*.json           # Test case'ler
 │
 ├── docs/                             # Dokümantasyon
-│   ├── reports/                      # Raporlar
-│   └── *.md                          # Teknik dokümanlar
-│
-├── scripts/                          # Data generation scriptleri
-├── Makefile                          # Komut kısayolları
-├── run.sh                            # Wrapper script
-├── requirements.txt                  # Python bağımlılıkları
-├── QUICK_START.md                    # Hızlı başlangıç rehberi
-├── FINAL_SUMMARY.md                  # Final rapor
-└── README.md                         # Bu dosya
+├── scripts/                          # Data generation
+├── requirements.txt
+└── README.md
 ```
-
-**Not:** `.gitignore` ile `models/`, `*.pdf`, `.venv/`, `__pycache__/` ignore edilmiştir.
 
 ---
 
-## 🛠️ Teknoloji Stack
+## Teknoloji Stack
 
 ### NLP & ML
-- **Model:** DistilBERT-base-turkish-cased (Hugging Face)
-- **Framework:** PyTorch 2.0+, Transformers 4.57+
-- **Training:** 2500+ samples, Stratified split
-- **Inference:** Hybrid (BERT + Regex) for robustness
+- Model: DistilBERT-base-turkish-cased (Hugging Face)
+- Framework: PyTorch 2.9+, Transformers 4.57+
+- Training: 4800+ samples (1200 intent + 3600 NER)
+- Inference: Hybrid (REGEX-first + BERT fallback) with confidence-based selection
 
 ### OCR & Processing
-- **OCR:** Tesseract 4.x / PaddleOCR
-- **Image Processing:** OpenCV, PIL
-- **Logo Detection:** Template matching
-- **Fuzzy Matching:** Levenshtein distance, Jaccard similarity
+- OCR: Tesseract 4.x
+- Image Processing: şu an yok!!!
+- Logo Detection: şu an eklenmedi..
+- Fuzzy Matching: Levenshtein distance, Jaccard similarity
 
 ### Web & UI
-- **Dashboard:** Streamlit 1.28+
-- **Visualization:** Plotly (gauge & bar charts)
-- **API:** Python-based (FastAPI-ready)
+- Dashboard: Streamlit 1.28+
+- Visualization: Plotly
 
 ### Database & Matching
-- **Mock DB:** JSON-based (tests/mock-data.json)
-- **Matching:** Multi-criteria fuzzy matching
-- **Normalization:** OCR error correction, Turkish chars
+- Mock DB: JSON-based (tests/mock-data.json)
+- Matching: Multi-criteria fuzzy matching (confidence-based)
+- Normalization: OCR error correction, Turkish chars
 
 ---
 
-## 📚 Dokümantasyon
+## V4 Production Özellikleri
 
-### Kullanıcı Rehberleri
-- **README.md** - Bu dosya (Hızlı başlangıç)
-- **docs/reports/README_TRAINING.md** - Detaylı model eğitim rehberi
+### Yeni Entity'ler
+- TITLE: Mülk/apartman adı (çalık-2, ada-3) - 90% F1
+- FEE entity kaldırıldı (gereksiz)
 
-### Geliştirici Raporları
-- **docs/reports/PROGRESS_REPORT.md** - Detaylı ilerleme raporu
-- **docs/reports/FINAL_SUMMARY.md** - Bugünün özet raporu
-- **docs/reports/NER_RESULTS.md** - NER model sonuçları
-- **docs/dataset-strategy.md** - Dataset toplama stratejisi
+### Multi-Month Support
+- Tek aylık ödeme: %70 dataset
+- İki aylık ödeme: %20 dataset
+- Üç aylık ödeme: %10 dataset
+- Örnek: "kasım aralık ocak 24bin tl"
 
-### Dokümantasyon Ana Sayfası
-- **docs/README.md** - Tüm dokümantasyon rehberi
+### OCR Error Correction
+- Runtime düzeltme: I→1, O→0, l→1
+- Örnek: "I4O TL" → "140 TL"
+- Örnek: "No:I4" → "No:14"
 
----
+### Confidence-Based Selection
+- REGEX ve BERT confidence karşılaştırması
+- Yüksek confidence'a sahip olan seçilir
+- REGEX: 0.9-1.0 confidence (structured patterns)
+- BERT: 0.08-0.95 confidence (context-dependent)
 
-## 🎓 Akademik Değer
-
-### Kullanılan NLP Teknikleri
-✅ Transfer Learning (Pre-trained BERT)  
-✅ Fine-tuning (Domain adaptation)  
-✅ Text Classification (Supervised learning)  
-✅ Model Evaluation (Precision, Recall, F1, Confusion Matrix)  
-✅ Stratified Train/Val/Test Split
-
-### Kapsam
-- Dataset: 300+ örnek (synthetic + real karışık olacak)
-- Model: Türkçe BERT fine-tuning
-- Pipeline: OCR → Intent → NER → Chatbot → Dashboard
-- Metrikler: %86.7 accuracy (synthetic data ile)
+### Keyword & Context Boosting
+- Keyword-based confidence boosting (kira, aidat keywords)
+- Context-based inference (apartmanı + ay → kira)
+- Confidence cap: 1.0 (max)
 
 ---
 
-## 🎯 Özellikler ve Kullanım
-
-### 📊 Web Dashboard
-```bash
-streamlit run src/dashboard/app.py
-```
-- **Tab 1 - Dekont İşleme:** PDF yükle, OCR, NLP, matching sonuçları
-- **Tab 2 - AI Asistan:** ChatGPT benzeri interface, PDF yükleme + sohbet
-- **Visualizations:** Gauge charts (confidence), bar charts (scores)
-- **Export:** JSON download
-
-### 🤖 AI Chatbot (CLI)
-```bash
-python src/chatbot/cli.py
-```
-**Özellikler:**
-- Kiracı sorguları: "Furkan Turan kimdir?"
-- Ödeme geçmişi: "geçmiş ödemelerini göster"
-- Ödeme durumu: "Kasım ayı ödeme durumu"
-- PDF işleme: `--pdf data/ziraatbank2.pdf`
-- Template-based responses + NLP entegrasyonu
-
-### 📄 Pipeline (CLI)
-```bash
-python src/pipeline/cli.py --pdf data/ziraatbank2.pdf --enable-matching --pretty
-```
-**İşlemler:**
-1. Bank detection (logo-based)
-2. OCR extraction (Tesseract/PaddleOCR)
-3. Intent classification (BERT)
-4. NER extraction (Hybrid BERT+Regex)
-5. Database matching (Fuzzy matching)
-6. JSON output (formatted)
-
-### 🔍 OCR Only
-```bash
-python src/ocr/extraction/cli.py data/halkbank.pdf halkbank
-```
-
-## 🎓 Akademik Değer
-
-### NLP Teknikleri
-- ✅ **Transfer Learning** - Pre-trained BERT fine-tuning
-- ✅ **Domain Adaptation** - Real estate domain specialization
-- ✅ **Multi-task Learning** - Intent + NER jointly
-- ✅ **Hybrid Approach** - BERT + Regex fallback for robustness
-- ✅ **Data Augmentation** - Synthetic data generation
-- ✅ **Evaluation Metrics** - Precision, Recall, F1, Confusion Matrix
-
-## 📚 Dokümantasyon
+## Dokümantasyon
 
 ### Ana Dokümanlar
-- 📖 [README.md](README.md) - Bu dosya
-- 🚀 [QUICK_START.md](QUICK_START.md) - Hızlı başlangıç rehberi
-- 📄 [FINAL_SUMMARY.md](FINAL_SUMMARY.md) - Final rapor
+- README.md - Bu dosya
+- rapor.md - Detaylı teknik rapor (v4 sonuçları)
+- PROJECT_STATUS.md - Proje durum raporu
 
 ### Modül Dokümantasyonu
-- [src/dashboard/README.md](src/dashboard/README.md) - Dashboard rehberi
-- [src/chatbot/README.md](src/chatbot/README.md) - Chatbot rehberi
-- [src/pipeline/README.md](src/pipeline/README.md) - Pipeline rehberi
+- src/pipeline/README.md - Pipeline rehberi
+- src/nlp/README.md - NLP modelleri rehberi
 
 ### Teknik Dokümanlar
-- [docs/](docs/) - Tüm teknik dokümanlar
-- [docs/reports/](docs/reports/) - Detaylı raporlar
+- docs/ - Tüm teknik dokümanlar
+- docs/reports/ - Detaylı raporlar
 
 ---
 
+## Kapsam
+- Dataset: 4800+ örnek (v4 production)
+- Model: Türkçe DistilBERT fine-tuning
+- Pipeline: OCR → Intent → NER → Matching → Dashboard
+- Metrikler: %99.28 NER F1, %73.33 Intent accuracy (test), %95.74 gerçek dekont
 
+---
 
+## Versiyon Geçmişi
 
+### v4 Production (Current)
+- TITLE entity eklendi
+- Multi-month payment desteği
+- OCR error correction
+- Confidence-based selection
+- Keyword & context boosting
+- REGEX-first hybrid extraction
+
+### v3 Robust
+- Hybrid BERT + Regex
+- Noise injection
+- 99.81% NER F1
+- 96.67% Intent accuracy
+
+### v2 OCR-Aware
+- OCR formatları eklendi
+- 11 entity types
+
+### v1 Synthetic
+- Baseline model
+- 6 entity types
+
+---
+
+## Lisans
+
+MIT License
+
+---
+
+**Son Güncelleme:** 17 Aralık 2024  
+**Versiyon:** v4 Production

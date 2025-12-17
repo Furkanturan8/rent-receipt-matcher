@@ -1,0 +1,85 @@
+{
+  "status": "success",
+  "timestamp": "2024-12-17T20:56:37",
+  "ocr_data": {
+    "sender": "ALI ÇELIK",
+    "sender_iban": "TR19002056213337325455501",
+    "description": "Daire A2 çiçek2 şubat 31bintl kira ücreti",
+    "amount": "31000.00",
+    "amount_currency": "TRY",
+    "date": "08.11.2025 - 20:21:07",
+    "recipient": "Emlak Ofisi",
+    "receiver_iban": "TR20000672890134496665106"
+  },
+  "intent": {
+    "primary": "kira_odemesi",
+    "confidence": 0.9234,
+    "all_intents": [
+      {"intent": "kira_odemesi", "confidence": 0.9234},
+      {"intent": "aidat_odemesi", "confidence": 0.0521},
+      {"intent": "depozito_odemesi", "confidence": 0.0156},
+      {"intent": "kapora_odemesi", "confidence": 0.0089}
+    ],
+    "is_multi_intent": false,
+    "detected_intents": ["kira_odemesi"]
+  },
+  "ner": {
+    "entities": {
+      "sender": "Ali Çelik",
+      "amount": "31000",
+      "apt_no": "A2",
+      "period": "Şubat",
+      "title": "Çiçek2"
+    },
+    "extraction_method": {
+      "sender": "regex",
+      "amount": "regex",
+      "apt_no": "regex",
+      "period": "regex",
+      "title": "regex"
+    },
+    "confidence_scores": {
+      "sender": 0.9,
+      "amount": 1.0,
+      "apt_no": 0.9,
+      "period": 1.0,
+      "title": 0.9
+    },
+    "bert_entities": {},
+    "regex_entities": {
+      "sender": "Ali Çelik",
+      "apt_no": "A2",
+      "amount": "31000",
+      "period": "Şubat",
+      "title": "Çiçek2"
+    }
+  },
+  "final_entities": {
+    "sender": "ALI ÇELIK",
+    "sender_iban": "TR19002056213337325455501",
+    "receiver": "Emlak Ofisi",
+    "receiver_iban": "TR20000672890134496665106",
+    "amount": "31000.00",
+    "amount_currency": "TRY",
+    "date": "08.11.2025 - 20:21:07",
+    "apt_no": "A2",
+    "period": "Şubat",
+    "title": "Çiçek2"
+  },
+  "summary": "Kira Ödemesi | Gönderen: ALI ÇELIK | Alıcı: Emlak Ofisi | Tutar: 31000.00 TRY | Mülk: Çiçek2 | Daire: A2 | Dönem: Şubat | Tarih: 08.11.2025 - 20:21:07",
+  "matching": {
+    "status": "matched",
+    "confidence": 87.5,
+    "owner_id": 1,
+    "customer_id": 1,
+    "property_id": 1,
+    "scores": {
+      "iban": 1.0,
+      "amount": 1.0,
+      "name": 0.85,
+      "address": 0.72,
+      "sender": 1.0
+    }
+  }
+}
+

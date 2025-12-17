@@ -42,13 +42,13 @@ class ReceiptMatchResult:
     messages: List[str] = field(default_factory=list)
 
 
-# Mock data'daki öncelik sırası ve güven skorları
+# Ağırlık sistemi (toplam: 100)
 MATCHING_CRITERIA = {
-    "iban": {"priority": 1, "weight": 95, "threshold": 0.95},
-    "amount": {"priority": 2, "weight": 85, "threshold": 0.80},
-    "name": {"priority": 3, "weight": 75, "threshold": 0.70},
-    "address": {"priority": 4, "weight": 70, "threshold": 0.60},
-    "sender": {"priority": 5, "weight": 60, "threshold": 0.60},
+    "iban": {"priority": 1, "weight": 35, "threshold": 0.95},      # En kritik: IBAN eşleşmesi
+    "amount": {"priority": 2, "weight": 30, "threshold": 0.80},    # Tutar doğruluğu
+    "name": {"priority": 3, "weight": 20, "threshold": 0.70},      # İsim benzerliği
+    "address": {"priority": 4, "weight": 10, "threshold": 0.60},   # Adres bilgisi
+    "sender": {"priority": 5, "weight": 5, "threshold": 0.60},     # Gönderen bilgisi
 }
 
 

@@ -1,0 +1,4802 @@
+[
+  {
+    "text": "kasım Daire 22 Güneş2",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "18000 konut kirası Lotus 3 Apart",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "DAİRE C1 84 BİN TL haziran temmuz ağustos çiçek2",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Yıldız2 Sitesi temmuz kira ücreti DAİRE 24",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "şubat konut kirası PARK-2 EVLERI",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "GÜNEŞ 2 SITESI 13 BİN TL DAİRE 5",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "34000 TL kira üreti BAHÇE-2 d:3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "daire 12 kasım aralık aylık ödeme 50.000 TL BAHÇE 2",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül Yıldız Evleri",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "konut kirası Lale 3 Sitesi şubat mart 46 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "lale apart aylık ödeme eylül 29bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "34000 nisan kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül 23 BİN TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "21 19bin Lotus2 aralık ev kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mayıs 23 BİN TL kira bedeli güneş2evleri",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aralık 10binn daire 13 konut kiraı",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "18000 TL LOTUS3 APARTMANI haziran",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "21000 TL Aydın 3 aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "15 BİN TL eylül Gül-3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kasım kira Daire 10 29 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "konut kirası şubat GÜL-3 APARTMANI 31000 TL d23",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Aydın2 DAİRE B1 kasım kira bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "daire 13 LOTUS 3 SITESI nisan 18000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "lale2apart 27 bin tl DAİRE 15 temmuz",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "şubat mart nisan Işık 2 72.000 TL kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ağustos 22bintl NUR3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "22 BİN TL kira ücreti Çiçk2 Apartmanı mart",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aylık ödeme park-2 sitesi nisan",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mart nisan 56bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli 20 bin tl Aydın Rezidans",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "d:4 31000 TL eylül kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ekim kasım 68bin yıldız3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "haziran Gül 2 9000 daire B1",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "29bintl aralık konut kirası AYDIN-2 APARTMANI",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira ücreti aralık 34bintl d10 Çiçek",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "çalık2 aralık 15bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "konut kirası mayıs lale-2",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ağustos aylık ödeme daire B2 23000",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Bahçe 2 10bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "yıldız3 d:3 32 BİN TL temmuz",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Yıldız-3 30 BİN TL haziran",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "102000 Bahçe3 Evleri Daire 7",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "72000 Gül 2 daire 20 ocak şubat mart ev kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aylık ödeme Işık 3 Apart eylül ekim",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mart 13bintl Gül 3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "54000 temmuz ağustos eylül dB1 LALE 2 SITESI",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Işık ağustos eylül 70 bin tl kira bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "33bintl Çiçek-2 Sitesi kira nisan",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ekim kasım aylık ödeme 58bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "16 BİN TL kira mayıs A2",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Çiçek Apart 39 bin tl ocak şubat mart ev kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "haziran",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "NUR-2 d23 mart nisan 56 BİN TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "şubat park2apart",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "temmuz 28bin kira bedeli Park-2 Evleri",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "bahçe 2 evleri mart konut kirası 33bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Çalık-2 18000 TL mart",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Aydın 3 16 BİN TL ev kirası aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "30000 ÇIÇEK-3 nisan",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Aydın 3 ev kirası 22000 d6",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "6bintl temmuz ağustos",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mayıs haziran lale3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira ücreti eylül Lale Apartmanı",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ağustos eylül 64bintl gül2sitesi klra bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül ekim kasım daire:C1 aylık ödeme BAHÇE-3 REZIDANS 57000",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kasım daire 19 konut kirası LALE-2 REZIDANS 13000",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "d:16 kira bedeli GÜL SITESI 18bin eylül",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "gül3 33bintl ev kirası mayıs",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "daire:6 LOTUS SITESI şubat mart",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ekim kasım 20 BİN TL kira bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ev kirası 15 bin tl ağustos dB2 NUR-3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aylık ödeme şubat çalık-3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Aydın 3 nisan mayıs kira bedeli 56bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Gül2 Sitesi ocak 20bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "çalık 3 apartmanı ocak 19000 TL daire 8",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "daire 4 AYDIN 3 24bintl ağustos",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "32.000 TL yıldız2 haziran kira ücreti",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "GÜNEŞ3 SITESI şubat Daire 23",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "temmuz ağustos kira yıldız2 DAİRE 8 20 BİN TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "24bintl ev kirası Bahçe 2 Apart temmuz",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "gül3 evleri 18000 kira bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül PARK2 APARTMANI",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kasım 32000 TL NUR-3 REZIDANS",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "15000 kira Işık3 şubat",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "16.000 TL aylık ödeme Aydın 2 Evleri eylül",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mart aydınapartmanı 1 aylık ödeme 22000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "konut kirası ağustos eylül Aydın 38bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Lale 2 Apartmanı daire 23 kira bedeli 27bintl ekim",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aylık ödeme mayıs 20bin lotus2apartmanı",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "34000 GÜNEŞ3 haziran",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "7 temmuz 31bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül kira ücreti Çiçek2 DAİRE B1 12 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kasım Yıldız-2 Rezidans aylık ödeme",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Lotus3 Apartmanı kira şubat 17bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Park 2 Evleri 17 eylül",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Bahçe2 Evleri ocak 25000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "51bintl NUR 2 REZIDANS haziran temmuz ağustos ev kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "14000 AYDIN-2 REZIDANS şubat konut kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "18bin aylık ödeme Nur 3 Rezidans temmuz",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "konut kirası Bahçe-3 Sitesi temmuz ağustos eylül 78bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "daire 9 Güneş3 Sitesi aylık ödeme temmuz 15.000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "30 bin tl Lotus3 Apartmanı mayıs ev kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ev kirası 14000 TL NUR aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "27000 TL daire:6 ekm",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Işık2 Evleri ağustos konut kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mart Çalık Sitesi 18 BİN TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "lotusapart 45bintl d7 ağustos eylül ekim konut kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül daire 22 23bin ev kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aylık ödeme ocak şubat",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "DAİRE 24 ağustos kira bedeli 27 BİN TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira Bahçe 3 Sitesi ekim 9.000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira ücreti aralık 10bintl işık3 d:A1",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "YILDIZ-3 SITESI kira bedeli 13bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "bahçe-3 sitesi 27.000 TL kasım aylık ödeme",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "çiçek2 60 bin tl konut kirası eylül ekim kasım Daire 9",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül ekim 54000 kira aydın3 daire:11",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "nisan 11 bin tl ev kirası Çalık3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "57000 kira ücreti GÜL-2 SITESI",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "şubat 14bin kira ücreti",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira ücreti AYDIN SITESI Daire 12 eylül 30bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "haziran nur-3 apart kira ücreti 13 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ekim 19bintl çalık3rezidans",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "çiçek-2 evleri ekim d10 kira bedeli 16000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "YILDIZ 2 ocak 23bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kasım Gül2 11 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli 20bin şubat",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli park2 21000 kasım",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "25 BİN TL Yıldız ocak",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aralık konut kirası 32000",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "şubat 32 BİN TL aylık ödeme",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "dare:5 10000 TL mat Park 2",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "3 64bin kira Lotus 2 Evleri",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira 17.000 TL ağustos Lotus 3 Evleri",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "GÜNEŞ-3 8 15000 TL mayıs kira ücreti",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aylık ödeme yıldız-2 evleri ocak",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "haziran 31bintl nur2",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Daire B2 temmuz ağustos kira 18000",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "güneş2apart 66 bin tl mayıs haziran temmuz",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mayıs 21000 TL kira ücreti IŞIK-3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira ücreti güneş-2 sitesi daire 9 13bintl mayıs",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "d23 ÇIÇEK-3 SITESI ev kirası aralık 29000",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira ücreti 8 bin tl çalık2 rezidans daire:2 eylül",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Gül-3 Sitesi ağustos eylül ekim aylık ödeme 96.000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ev kirası 44bin daire 8 IŞIK 3 EVLERI",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "haziran park2 sittesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "gül3apart DAİRE 13 kira bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ekim 19 bahçe-3 32 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mayıs kira 31bin Lale3 Apartmanı",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Işık3 ağustos 15 BİN TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "çiçek-3 evleri 18bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "52000 TL Güneş2 Apartmanı ev kirası şubat mart",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira ücreti aydın3 14bintl DAİRE 5",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "57bintl ekim kasım aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ocak 25bin kira bedeli bahçe3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Gül 3 ev kirası nisan 24.000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "18 BİN TL Nur2 daire:3 kira ekim kasım",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "lale2 ekim kasım aralık konut kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "lale3 apartmanı kira ücreti",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Nur3 daire:B2 18000 ocak",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aylık ödeme işık2rezidans 14bintl DAİRE 18 temmuz",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "34bintl Lale 2 Apart ock kira bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "9.000 TL daire 8 nur3 ekim ev kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "32000",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Daire 4 haziran 20 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "20000 TL aralık DAİRE 10 çalık2",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "gül2aapartmanı 64bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Nur 3 aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "17 BİN TL Güneş2 Rezidans kira ücreti",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedelii Bahçe 2 Evleri mayıs 31 BİN TL daire:5",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mart NUR 2 APART aylık ödeme 29000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Daire 17 konut kirası 57.000 TL lotus2 mart nisan mayıs",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "22 mayıs kira bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "2500O mart Lale 2 Apartmanı ayl1k ödeme",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "haziran temmuz aylık ödeme Lale 3 Apartmanı",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aydın3rezidans mayıs 14bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "30000 TL ÇIÇEK-3 SITESI aylık ödeme ekim kasım aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ev kirası ağustos Güneş3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "16bin Çiçek3 Apart mayıs d17",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "DAİRE 6 20bintl ocak şubat konut kirası Çalık2 Apartmanı",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "daire B1 21000 temmuz Işık Apart",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "30bin Güneş 2 haziran temmuz konut kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "daire:B1 81bintl aydın 2 evleri temmuz ağutos eylül kra bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ekim 35 BİN TL kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli ağustos GÜNEŞ3 DAİRE C1",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli 24.000 TL Yıldız-3 Sitesi şubat",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül d5 konut kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "18.000 TL Lale Aprtmanı",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "lotus2apartmanı şuat",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "çiçek 3 evleri 27000 TL ekim kasım aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aylık ödeme 16bin ağustos Lale 3 Rezidans",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "46000 konut kirası temmuz ağustos",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira 29 BİN TL nisan",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mart 15bintl daire:A2 lale3evleri",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "33bin ev kirası ekim Iale",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "GÜNEŞ APARTANI 13.000 TL nisan",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "24bin Bahçe Apartmanı kira ücreti",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül 31bintl yıldız apart",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Lale Apartmanı kasım",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül kira nur",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "DAİRE 2 mayıs haziran Yıldız-2 50000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kasım 17000 d2 Lale3 Sitesi kira ücreti",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "15000 ekim aylık ödeme d21",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Daire B2 223000 TL aylık ödeme mayıs Işık3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "güneş3apartmanı aylık ödeme ekim",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ekim kasım 16.000 TL aylık ödeme",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli daire:5 Aydın2 Rezidans 17bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "temmuz ağustos kira ücreti 64000 TL d:7",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Lale-3 Sitesi temmuz ev kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "şubat kira ücreti 27 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli Çiçek kasım",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aralık daire:2 konut kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "1A1E-2 APARTMANI mart 24 bin tl d10",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "87000 TL ocaak şubat mart yıldız aylık ödeme d:6",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "haziran temmuz 38bin daire:C1 Lotus 3 kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "daire:B2 kira bedeli Yıldız 2 Evleri 38000 kaım aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "çalık2evleri kira ücreti mart 26.000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "daire C1 Lale Sitesi ağustos 18bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "d6 Aydın 3 Evleri kira 21.000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "30.000 TL daire:B1 Yıldız-3 Evleri mayıs",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "dA1 temmuz 34bin kira ücreti",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "10bin eylül DAİRE A1 Park3 Rezidans kira ücreti",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "DAİRE 7 eylül ekim 36.000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira 10 haziran 23 BİN TL GÜL 2 EVLERI",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mayıs lale-3 evleri aylık ödeme",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "konut kiras1 400o0 d14 AYDIN 3 temmuz ağustos",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "GÜNEŞ-2 SITESI konut kirası 33 BİN TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli dB2 Park-3 11.000 TL şubat",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Çiçek2 Apartmanı 75.000 TL haziran temmuz ağustos",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "38 BİN TL LALE SITESI ev kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aylık ödme 15 BİN TL 14 Işık 2 Apartmanı haziran",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Çiçek2 Sitesi 34.000 TL ev kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "eylül ekim kasım Işık 3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "64 bin tl temmuz ağustos knut kirası",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "78.000 TL Lotus3 Apartmanı kira bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli 12.000 TL d:22 aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ev kirası işık2evleri 27 BİN TL ocak",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "konut kirası nur3 haziran 12bintl Daire A1",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "33000 TL Çiçek-2 Evleri daire:A1 konut kirası ekim",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "20bintl daire 5",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Aydın2 aylık ödeme ocak şubat mart 84 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "nur evleri 35 BİN TL şubat aylık ödeme",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "15.000 TL eylül kira ücreti",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Aydın 2 23000 TL mayıs kira bedeli",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli aydın 3 apartmanı DAİRE 20 9 BİN TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ev kirası işık-3 şubat 9000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Işık nisan 2700",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ocak şubat Lotus2 Apartmanı kıra 64000",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira bedeli 19 bahçe3rezidans nisan 19 BİN TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "14000 TL Gül3",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Yıldız-3 aralık kira bedeli 30bintl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "33000 TL aralık park 2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "20.000 TL site aidatı ÇALIK 3 EVLERI haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Yıldız 2 Rezidans aidat mart nisan",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Park3 Rezidans mayıs haziran site aidatı 16 bin tl DAİRE 24",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "99bintl gül3 rezidans ortak gider eylül ekim kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "dA2 42.000 TL ekim kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "16000 kasım apartman aidatı IŞIK3 APARTMANI",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "12.000 TL Daire 16 Nur3 Apartmanı haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "çalık 2 22 bin tl aidat ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "22000 mayıs ortak gider Bahçe3 Apartmanı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Işık 2 Evleri aralık site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "bahçe2 site aidatı eylül 24 BİN TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "15bin site aidatı eylül daire A1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "apartman aidatı mart 11000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "11000 kasım Lotus-2 Apart site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ağustos eylül eim 60 bin tl işıkapartmanı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "haziran temmuz aidat Gül Aparttmanı 52 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "DAİRE 7 Aydın3 Sitesi mayıs apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "site aidatı 24bintl mayıs YILDIZ3 APARTMANI",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "nur rezidans aidat 93 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "IŞIK-2 mart nisan yönetim aidatı 60.000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "daire:9 Çalık2 Evleri 13000",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ocak 12.000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "10000 güneş evleri nisan ortak gider",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "9000 Çalık3 eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat 30bin d11 GÜL 2 EVLERI haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "temmuz apartman aidatı aydın3 31 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "14 bin tl Çalık 3 Apart Daire 18 aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "69000 TL ocak şubat mart yıldız3 sitesi",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ağustos 35.000 TL site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "84000 yönetim aidatı haziran temmuz ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat 35bn çiçek3sitesi haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "güneş3evleri ocak 18000 TL aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "nisan mayıs haziran Çalık 3 DAİRE 13 81 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ekim yönetim aidatı 9 bin tl nur",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "lotus 3 mayıs apartman aidatı DAİRE 24",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "daire 22 32 bin tl apartman aidatı park2 nisan",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yıldız3 60000 apartman aidatı mayıs haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "apartman aidatı 9 BİN TL lotus3evleri aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "site aidatı nisan Bahçe3 Apart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ortak gidr 60000 TL mayıs hazran temmuz lale-3 Evleri",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "17000 TL Çalık2 nisan site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat 70 BİN TL güneş3apart Daire 11 ekim kasıım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d:11 lotus 3 yönetim aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat Daire 9 16 BİN TL Aydın-2 Evleri",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ocak 34 BİN TL lale-2 apart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ocak şubat aydın3apart yöneim aidatı 60.000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat d21 31000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "temmuz Bahçe2 Evleri ortak gider d:A2 19.000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "nisan Lotus 22bin",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "12000 ortak gider haziran Lale-2 Rezidans",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "13 BİN TL Lotus Sitesi kasım d18 ortak gider",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "33000 TL d24 apartman aidatı gül2evleri",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d12 20 bin tl Işık2 ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ÇIÇEK3 aidat haziran 21000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat Bahçe aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ekim Lale 3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "nisan mayıs yönetim aidatı Daire 8",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d18 apartman aidatı 32 bin tl şubat BAHÇE-3 APARTMANI",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ste aidatı Çalık 3 mays",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yönetim aidatı 20 BİN TL ocak 23",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat 31.000 TL daire 7 lotus-3 evleri",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "9in Lotus 2 Sitesi hazıran dC1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "12000 TL aralık daire B1 Nur 3 Rezidans",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ocak şubat mart 39bin apartman aidatı Lale Rezidans",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "apartman aidatı nisan aydın3sitesi 20000 TL daire 1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "daire:19 IŞIK 42000 apartman aidatı nisan mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "16000 TL aidat yıldızapartmanı şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aralık site aidatı ÇIÇEK 2 EVLERI",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ortak gider temmuz Güneş 35 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "site aidatı Park Evleri ağustos eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "mart d:3 çalık-2 33bintl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d:3 Lotus 2 Evleri ortak gider mayıs haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat 20bintl mayıs güneş-2 evleri daire 16",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat kasım aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "18 BİN TL Güneş3 şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Lotus 3 31 bin tl mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "31 bin tl temmuz Güneş3 Evleri",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yönetim aidatı DAİE 15 ağustos 2100 yıldızapart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ortak gider ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "BAHÇE APART ortak gider ekim 22000",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aralık 23bin site aidatı Çiçek 3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "14 Bahçe 2 şubat 23000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ekim aydın apart 25.000 TL yönetim aidatı 18",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d:22 27000 TL mayıs yıldız-3 sitesi",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "çiçek2evleri eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "8bin gül-2 evleri ocak 16 yönetim aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kasım 18 BİN TL ortak gider Lotus-3 Rezidans",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "mayıs 22 bin tl Çiçek 2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "nisan mayıs Aydın-2 Evleri d:8 24bin ortak gider",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Bahçe3 Apart apartman aidatı d:A1 50.000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "8bin yönetim aidatı bahçe2 ek1m",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yönetim aidatı eylül 27000 TL d:B1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "apartman aidatı DAİRE 20 çalık2 30000 haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "722bin Park 2 Apartmnı ortak gider mayıs haziran temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "işık3 kasım d5 9000 TL site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "apartman aidatı 14000 YILDIZ-2 APARTMANI",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "lotus3apartmanı apartman aidatı 12 BİN TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "11 bin tl Gül 2 Sitesi ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ortak gider Çalık-3 Rezidans mayıs Daire 2 32bin",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "12bin işık3rezidans ocak",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat temmuz ağustos eylül Daire 18 30bin çiçek2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat 24 şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Lotus3 Evleri şubat 25bintl ortak gider d2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ocak 22 işıkrezidans 33000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yönetim aidatı haziran daire:21",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "mart aidat DAİRE 4 yıldız 2 30000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "işık adat ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ağustos Nur Evleri 19bin site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "23.000 TL ekim aydın-2 rezidans ortak gider",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "güneş2evleri apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aartman aidatı 12 bin tl Çalık2 Sitesi",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "çiçek 60 BİN TL ekim kasım ortak gider",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "haziran temmuz dB1 nur 3 20 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "eylül güneş2rezidans 32bin DAİRE B2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Aydın site aidatı 70bintl d:B1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat Aydın-2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "DAİRE 1 34.000 TL Güneş 3 Rezidans nisan aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "lale2rezidans mayıs yönetim aidatı 33 BİN TL DAİRE 13",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Lotus-3 Apart apartman aidatı d23 ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "19bintl Lale3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat mart ortak gider gül3evleri",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "13000 ortak gider nur 3 kasım DAİRE 7",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "26000 TL Nur 2 Apartmanı kasım 6 yönetim aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aydın 3 rezidans DAİRE 8 yönetim aidatı temmuz 9000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d1 eylül 26000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ekim apartman aidatı 8 bin tl çiçek3apart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "haziran temmuz gülevleri site aidatı 58 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Çalık2 Apart 35000 eylül site aidatı C1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "site aidatı DAİRE 24 ocak Çalık 2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Lotus-2 Sitesi apartman aidatı daire:18",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Park2 kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "20 21bintl nur2 rezidans ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "site aidatı 87 BİN TL 14 temmuz ağustos eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "25.000 TL Çiçek2 Apartmanı yönetim aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "mart nisan 30000 TL 22 IŞIK 2 APART aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "11000 Işık 3 Apartmanı Daire 8 aaralık aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Nur 2 Apart 27 BİN TL temmuz ağustos eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "20000 yönetim aidatı eylül ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "1 29bintl ortak gider park3apart temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "lotus2apart 31 bin tl şubat Daire 16 apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "13.000 TL temmuz site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat temmuz gül2rezidans",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Çalık Evleri daire:19 yönetim aidatı 22 BİN TL kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "28 bin tl ocak Aydın 2 Evleri d:16",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "31bin AYDIN 2 REZIDANS site aidatı 5 mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ocak çiçek2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "daire 18 haziran 24000 TL apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "daire:17 yönetim aidatı nisan Gül3 Evleri 17bin",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "mayıs 9000",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "11000 TL Aydın 3 ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "site aidatı ocak Yıldız2 Apartmanı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ocak şubat 32 bin tl LALE daire:18",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Aydın3 aidat eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "haziran aidat Gül-2 Apart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Işık Apart aralık 33 BİN TL Daire 7 site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat 33000 Park3 Rezidans",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "güneş 2 daire A1 eylül 8000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat 36bin Çiçek3 Apart nisan mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "58 BİN TL site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Aydın 2 34 bin tl mart nisan",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "temmuz 27000 TL Çiçek-2 Evleri yönetim aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "temmuz ağustos eylül aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ağustos Nur3 Rezidans daire 16 32000",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Yldız2 44.000 TL ağustos eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yönetim aidatı 31bintl nur3rezidans DAİRE A1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yönetim aidatı DAİRRE 13 kaım 24bin güneş-3 sitesi",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "haziran Daire 7 NUR3 SITESI site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "30.000 TL Işık-2 Apartmanı ekim kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "33 bin tl Nur3 d4 ocak apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat 14 bin tl şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "site aidatı 14bin bahçeapartmanı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat Çalık-3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yönetim aidatı gl3 d:21 29bintl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "IŞIK 3 SITESI 18bin mart nisan",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Çiçek 3 Siesi 62bin site aidatı haziran temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "nur2 apart aidat temmuz ağustos eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "IŞIK 3 SITESI daire 22 mayıs haziran temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d12 apartman aidatı mart nisan mayıs Park2 Apartmanı 42bintl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "apartman aidatı şubat 27000 TL DAİRE 4 Çiçek3 Apart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "daire:19 9.000 TL eylül site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "33 bin tl ağustos Lotus2 Apart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d8 aralık ortak gider 9000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "72bintl apartman aidatı AYDIN-2 mart nisn mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "mayıs yönetim aidatı DAİRE 14 8000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ocak daire:7 29000 TL Çalık3 Apartmanı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "13bin yönetim aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Çiçek Evlei temmuz apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "70 BİN TL ağustos eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat daire B1 site aidatı 11 BİN TL Lale3 Sitesi",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Işık 3 Apart site aidatı haziran 19bin",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "nisan Çiçek 2 14000 ortak gider",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "dB1 mart nisan çiçek 2 sıtesi 50 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ortak gider Nur3 Apartmanı ocak şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kasım 28bintl site aidatı Bahçe2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "lale3 DAİRE 11 9bin",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ortak gider şubat 9000 TL Park3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ağustos eylül Nur 3 Sitesi d21 66bintl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "çiçek3 26 bin tl apartman aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "bahçe3 16bin nisan site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d9 site aidatı haziran 14000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "lale3 16 haziran site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "32bin d22 kasım Çalık 3 aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yönetim aidatı Yıldız 3 33000 TL eylül daire:A1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "23bin kasım Çalık 3 Evlri",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yönetim aidatı d:B2 ağustos eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "nisan 33.000 TL site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "8bintl ortak gider tmmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "çiçek-3 sitesi 24bintl daire 15",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "gül-2 rezidans aidat ocak 29 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "30bintl ekm kasım güneş 3 apartmanı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "lotus-3 sitesi 2bin DAİRE 19",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ortak gider ekim kasım aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "11000 TL park2evleri eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat bahçe2 27000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat ÇIÇEK-2 8 BİN TL A1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "haziran 16.000 TL lotus rezidans",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "mayıs haziran yıldız3rezidans yönetim aidatı 40bintl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Lotus2 Apart site aidatı 24 bin tl nisan mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "28 BİN TL Lotus 3 Evleri temmuz ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "DAİRE 2 aidat nisan 10.000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ocak 21.000 TL ortak gider Işık2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Işık3 21.000 TL temmuz site aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat güneş-2 sitesi 17 BİN TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "site aidatı lotus2sitesi haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "güneşsitesi haziran 28.000 TL aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "daire 24 site aidatı nur2rezidans 24000",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ortak gider lotus-2 apartmanı 16bintl d20 mayıs haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "daire:22 apartman aidatı nisan Park3 Apart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "daire:19 apartman aidatı mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aydın rezidans temmuz yönetim aidatı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "30 bin tl yyönetim aidatı GÜNEŞ-2 APARTMANI temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "site aidatı nisan mayıs GÜNEŞ-2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "mayıs Bahçe 2 Apartmanı 11000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "14000 TL mart PARK-3 SITESI",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yıldız2 apart Daire 17 aralık",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Çiçek 2 Rezidans ocak yönetim aidatı 16.000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "yıldız2rezidans 32.000 TL mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "63bintl yönetim aidatı eylül ekim kasım Lotus 3 Apart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "33 BİN TL güneş3 14 haziran",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "84 bin tl yönetim aidatı Çiçek 2 mart nisan mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "lale2 apartman aidatı kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Çiçek2 Sitesi 22bintl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat Bahçe-2 Sitesi d:21 ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "apartman aidatı park3 42 bin tl şubat mart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "temmuz site aidatı Lale 3 Apartmanı 33bintl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat IŞIK 2 APARTMANI ağustos DAİRE 1",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "2 apartman aidatı 18000 nur sitesi",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "22000 TL ortak gder mayıs Çalık 2 Sitesi",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kasım yönetim aidatı gül3 21 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "teminat 60 BİN TL Çiçek ekim kasım",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nur3 kapora 16 bin tl Daire 17 şubat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "8000 daire:B1 kasım Gül3 Apart",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "44bintl 5 Nur eylül ekim",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapora 31 bin tl ekim Güneş Sitesi d:12",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ÇALIK2 11000 TL ön ödeme eylül",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "haziran 15.000 TL peşinat lotus3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "8bin Lotus Apart teminat mart",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "22000 daire:17 ocak şubat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ön ödeme BAHÇE 3 SITESI nisan mayıs haziran 48bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "14 peşinat 18000 Çalık-3 temmuz",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "13000 TL mart çalık kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "lale3rezidans 12000 TL kasım kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "daire A1 70bintl eylül ekim Güneş3 Sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "DAİRE 16 kapora Aydın2 Rezidans temmuz",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Lotus3 Evlerri teminat ağustos",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Çalık ön ödeme ekim 31bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "peşinat DAİRE 19 56.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "şubat mart 60.000 TL avans işık 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "teminat kasım aralık GÜL-2 22 BİN TL 14",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Bahçe 2 Evleri ocak şubat mart peşinat 93 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "d1 10bintl peşinat aralık",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ocak 21000 TL Güneş 3 Rezidans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "mart Çiçek2 Rezidans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Güneş 2 Evleri ön ödeme mart nisan mayıs 42000",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "daire 2 aydın 32.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "16000 eylül kapora Işık3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "daire:17 aydın2sitesi 26 BİN TL aralık ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "15 bin tl avans ekim Nur3 Evleri",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Aydın-3 Sitesi daire C1 19 BİN TL mayıs",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ağustos 21000 TL daire B1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "şubat DAİRE 17 teminat gül2apart",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Lale 2 peşinat 84 bin tl Daire 23 mart nisan mayıs",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "25000 TL haziran daire:5 Gül2 Apart",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "maıs yıldız2 28bin 23",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "avans eylül Çalık 3 Apart 7",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "yıldız apart teminat 31 bin tl temmuz d4",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Lale3 temmuz peşinat 11000",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Lale2 aralık Daire 20 23bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "18bin işık2 ocak şubat avans daire:20",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "6 20.000 TL teminat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ocak şubat Nur 2 Sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "teminat daire 24 NUR 18 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapora haziran 34000 TL Bahçe3 Sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "işıkapartmanı teminat aralık",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "temmuz 29 BİN TL peşinat d:19 Yıldız-3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "10000 TL kapora daire:8 mayıs lale2sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Bahçe2 Evleri 34bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "75 BİN TL ağustos eylül ekim",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ön ödeme hazziran Lotus 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nur3 ön ödeme 28bintl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "22 Yıldız 3 Apartmanı 78.000 TL kapora mayıs haziran temmuz",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "avans kasım aydın 2 apart 17 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "peşinat aralık Nur 16bintl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "PARK 24000 haziran",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "29.000 TL ocak",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "d21 64000 Çiçek 2 mart nisan",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Aydın 3 Evleri eylül ekim",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Güneş2 kasım 35.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Nur2 Rezidans şubat mart teminat daire 24 22000",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "32 BİN TL d:24 Park3 Evleri ocak şubat kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "36 bin tl şubat mart nisan LOTUS2 APART C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "d:17 Lotus mayıs 32000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ekim 16bintl lale-3 evleri teminat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapora 15000 TL mayıs Daire C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "20 bin tl peşinat eylül Park2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Gül3 Sitesi 21 BİN TL Daire 7 eylül",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "teminat 24 eylül ekim kasım 24000 TL Lotus 3 Apart",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Yıldız3 Rezidans mayıs DAİRE A2 avans 32 bin tl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ön ödeme 2 29000 nisan aydın3sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "13bintl Yıldz2 daire:20 kpora şubat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nisan mayıs ÇIÇEK2 22 BİN TL d4",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kaım 11bin avans Çiiçek 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "26.000 TL Güneş 3 Apart mayıs haziran",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "daire 17 17.000 TL aralık peşinat yıldız-2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "DAİRE 11 mayıs haziran temmuz aydın 3 evleri",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "mayıs 19bintl Lotus 3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "19bintl park3 rezidans temmuz",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "I8 BİN T1 d:18 aralık",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "31000 TL teminat mart Güneş3 Rezidans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "52bintl avans Çiçek Evleri",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "aralık 21000 bahçe3evleri ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "29000 TL ağustos ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Lotus Sitesi ön ödeme aralık 26bintl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ağustos eylül 68bintl peşinat işık2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "22.000 TL temmuz ağustos işık3 sitesi kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "gül2 ağustos 20000 TL teminat 22",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "teminat Lotus 3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "81000 DAİRE 14 ağustos eylül ekkim ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "daire:9 nur3 35 BİN TL ekim",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ekim daire:17 IŞIK3 kapora 11000",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nursitesi ön ödeme 20bintl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "105.000 TL avans Lale 2 haziran temmuz ağustos",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "mart teminat Aydın3 Apart d:4 35.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapora lale 3 33000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "şubat DAİRE 14 teminat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Lotus3 ön ödeme 10 bin tl temmuz",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapora LOTUS-2 aralık daire 19",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "9 bin tl Park 2 Apart mart",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Aydın 2 teminat B2 mayıs haziran temmuz",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "peşinat ekim Lotus-3 Rezidans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "68 bin tl teminat daire:7 haziran temmuz Aydın 3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "18 BİN TL BAHÇE 2 ekim",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "BAHÇE2 REZIDANS",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "teminat 31000 d:17 Güneş 2 aralık",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "28000 ocak Gül3 Sitesi peşinat DAİRE 19",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ocaak park2 21000 TL 15 kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ön ödeme 15bin mayıs Çalık Apart",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Lale Apart mayıs haziran temmuz 63bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Çiçek 3 şubat 35000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "güneş3apart eylül",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "teminat haziran 8 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ekm kasım",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Işık Rezidans mart",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "haziran temmuz PARK2 28000 daire 4",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "aydın avans 38000 mart nisan Daire A2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "lotus2sitesi ön ödeme mayıs 18 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ocak 15bin AYDIN 3 teminat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Yıldız 3 temmuz ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Bahçe3 Apartmanı ekim 13bintl teminat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapora Çiçek 2 Apartmanı 29bintl haziiran",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "14 bin tl peşinat kasım",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ocak Yıldız3 Apartmanı teminat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "3 23000 TL temmuz aydın2evleri ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Yıldız 2 Apartmanı daire:15 n1san mayıs 18000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ön ödeme şubat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "d8 aralık peşinnat Yılldız2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "güneş 3 peşinat eylül 35000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Gül 2 temmuz ağustos 28bin avans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "20 bin tl mart lotus3apartmanı",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "bahçe2 teminat C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Lotus Rezidans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nisan mayıs Gül 3 30 bin tl peşinat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "8.000 TL 4 temmuz IŞIK2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ağustos eylül teminat AYDIN 3 APARTMANI 36 bin tl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "daire 10 çalık2 ocak 14000 TL teminat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "daire 8 26000 nisan kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "haziran daire 15 ön ödeme 20bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ekim teminat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "şubat 14.O00 TL ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "eylül ekim peşinat daire:C1 34 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "23bin eylül işık3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "28000 TL Daire A1 şubat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "lotus apartmanı DAİRE 22 18000 ekim",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "d:C1 marrt kapora 8 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "IŞIK-3 APART haziran Daire 12",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "GÜNEŞ-3 30 bin tl ocak şubt",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ağustos ön ödeme güneş-2 33bintl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Park3 Apart haziran kapora DAİRE A1 23 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "PARK2 APARTMANI 19000 avans haziran",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "avans Gül3 ocak",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "avans Aydın2 Apartmanı 9000 TL aralık",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Çiçek 2 Sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "aralık 15000 TL kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapora 15.000 TL Daire 4 Lotus 2 Sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "eklm kasım işık kapora 42O00 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "51bin Aydın3 avans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "19 BİN TL mart d:21 peşinat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "güneş-3 apart peşinat 42bintl eylül ekim",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "temlnat mart",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "park3 8000 peşinat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Park2 28000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "peşinat DAİRE 20 24 bin tl Bahçe3 Evleri kasım",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "54 bin tl Gül2 Evleri peşinat daire:8 ağustos eylül",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "daire C1 25000 TL peşinat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "park-2 apart teminat 29000 DAİRE 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "çiçek3 21bin ekim",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "mayıs haziran IŞIK-3 SITESI 44bin DAİRE 12",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "aydın-2 rezidans 24 BİN TL nisan maıs haziran avans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "lotus3apartmanı teminat şubat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "avans nisan mayıs d1 AYDIN3 REZIDANS",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "17.000 TL avans şubat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "şubat mart Aydın-3 Rezidans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "avans temmuz ağustos eylül 102000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Yıldız3 şubat ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "31.000 TL aralık çiçek-3 sitesi avans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "28 bin tl ağustos eylül nur 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Işık2 peşinat nisan 20 bin tl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "d:1 Çaalık2 Apart 34000 avans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Gül-2 teminat 56 bin tl haziran temmuz",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "temmuz 25000 yıldız apart ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "eim avans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "68bin şubat mart avans çiçek3sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "d:14 48000 TL kapora haziran temmuz ağustos Aydın",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "mayıs haziran temmuz ön ödeme 51000 TL gneş",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nisan mayıs DAİRE 19 teminat Gül2 Rezidans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "48000 TL ekim kasım aralık AYDDIN-2 SITESI avans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "avans eylül ekim kasım yıldız-2 aparrt DAİRE 12 39bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "23 bin tl mat dA2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "DAİRE B1 Güneş 2 temmuz kapora 13.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "40bin Nur 3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "32000 TL eylül ekim Bahçe2 Evleri",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "temmuz 15000 TL avans AYDIN-3 APARTMANI",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "27bin eylül ekim kasım Bahçe 2 Apartmanı teminat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "lale3apartmanı aralık 25000 TL kapora Daire 3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "yıldız2 teminat 26bintl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ocak 21.000 TL LALE 2 EVLERI teminat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Gül Apart 23000 TL ön ödeme",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "29 bin tl aydın 3 apart nisan",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "peşinat Bahçe-3 Evleri şubat Dare 5 31bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Çalık 3 50 bin tl haziran temmuz d:3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ocak şubat Daire 2 Işık 3 Sitesi 30.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nur2 tminat haziran 11.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kasım Gül 2 26000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nur 2 teminat haziran 22000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "d6 avans lale2sitesi 16 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "bahçe 35 BİN TL DAİRE 11 ekim",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "dire:5 eylül ekim kasım ön ödeme 84 BİN TL YILDIZ 3 SITESI",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "26 bin tl Lotus aans aralık",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "13 bin tl ocak dA2 lale 3 sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Işık3 Evleri 11000 TL kapora nisan",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "teminat 8 BİN TL ekim Daire 14 PARK 2 EVLERI",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Yldız 2 Evleri kasım aralık 52bintl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "1000 TL aralık lale-3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "14bin haziran Lotus avans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapora 46 BİN TL ocak şubat Bahçe3 Sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "gül-3 apartmanı haziran temmuz ağustos 69000",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "temmuz ağustos eyül Yıldız2 Apart Daire 16 ön ödeme 75000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kasım avans 13 bin tl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Işık-2 14 BİN TL temmuz avans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "avans nisan Bahçe2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ekim lotus sitesi 12000 Daire C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ekim kasım aralık kapora 81000 LALE 3 dA2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Nur 2 Apartmanı nisan Daire C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "27bintl teminat eylül Yıldız",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "lotus3 32 bin tl 12 temmuz ağustos",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "mart nisan kapora IŞIK2 SITESI 68.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Işı3 Rezidans 48000 TL ağustos eyllül",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "46000 TL işık peşinat daire:2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Aydın2 avans 34bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "peşinat Lotus2 ağustos eylül",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "daire B1 aralık 25bintl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ekim 32000 Lous3 Apartmanı",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "peşinat daire:13 15000",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "PARK-2 REZIDANS teminat temmuz",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapora işık",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Çiçek3 Sitesi peşinat ocak",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "17bintl şubat teminat GÜL 3 APART",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "aralık 10 peşinat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "21000 TL bahçe3apart eyül",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "teminat ağustos 33 bin tl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Aydın3 Apart 30000 TL mart nisan",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nsan mayıs d:3 70.0000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "30 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "avans Güneş2 ekim 26 bin tl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ekim güneş 2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "mat aavans Çalık 2 18 BİN TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "şubat GÜL-2 REZIDANS",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ekim kasım Gül3 Apart peşinat 50.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Bahçe2 Rezidans peşinat 11bin mayıs",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "18 BİN TL mayıs haziran çalık 3 evleri garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "haziran Aydın-3 Rezidans 1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "garanti bedeli 78000 TL temmuz ağustos eylül",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "nur3 29 BİN TL temmuz dA2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ocak aydın 2 depozito 11000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aralık bahçe 3 24000 TL garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kasım Aydın Rezidans 25 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "24000 haziran depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "lale-3 güvence bedeli şubat mart 56 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "garanti bedeli eylül ekim PARK-3 52.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ekim yıldız apart 22000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "19 BİN TL nur3apartmanı temmuz teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ağusts eylül ekim Nur 3 60.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "36000 NUR 2 REZIDAS mayıs haziran temmuz",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito d:23 BAHÇE2 kasım",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "GÜL2 SITESI depozito mayıs 14000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "haziran temmuz ağustos Işık 2 Apartmanı 45bin d:22 teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito nisan 30bintl Lotus2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eylül Lale 2 garanti bedeli 31000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "105bintl Nur Rezidans ocak şubat mart depozito DAİRE 21",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Gül3 Rezidans 75.000 TL ekim kasım aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mayıs haziran temmuz 84bin aydın 3 apartmanı Daire 4",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eylül ekim güvence bedeli DAİRE C1 26000",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "68000 TL kasım aralık depozito IŞIK APARTMANI",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "PARK-2 EVLERI depozito eylül ekim 64bintl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "17000 TL depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "haziran temmuz ağustos Daire 3 57000 TL Gül Apartmanı",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mart 14 bin tl garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedelii LALE 2 ocak şubat d17",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "NUR 2 EVLERI haziran temmuz 32000",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito kasım 11 Güneş Apartmanı",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ocak 15000 Güneş 2 garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito nisan nur-3 apartmanı daire:19 20.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "GÜL 2 teminat bedeli ekim 19 14 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "d15 51.000 TL nur3 şubat mart nisan",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "haziran güvence bedeli lotus-3 sitesi 32 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eyll Günş 2 Apart depzito 17 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Gül 2 aralık teminat bedeli 34000",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kasım Bahçe 3 14 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "25bin lale3evleri güvence bedeli ağustos",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güvence bedeli eylül Aydın2 Apartmanı",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "18bintl kasım aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "daire 4 haziran temmuz garanti bedeli Lale-2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Lale Sitsi güvence bedeli eylül",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mayıs depozito Lale2 d:24 9.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ocak Lale3 Evleri 15000 güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Gül 3 27bin şubat",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "9 mart nisan mayıs Lotus3 Sitesi depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "d:B2 işik3rezidans eylül 13 BİN TL güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito temmuz ağustos Işık-3 d10 18bin",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güneş2evleri 19 ocak şubat 22 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedeli Lotus 2 9000 TL mart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eyll ekim Güneş Apartmanı DAİRE 23 16000 teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "20000 ağustos NUR-2 güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito aralık Çiçek Rezidans 8.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ekim 20 LALE-2 30bin garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kaım",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "1 temmz YILDIZ-3 28 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "d13 teminat bedeli Aydın 3 Apart mart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aralık garanti bedeli Nur2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mayıs çalık3 d:21 18bin",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedeli gül3 sitesi nisan 26.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "26 bin tl teminat bedeli daire:16 lale3 ocak",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "12 bin tl lotus 3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "haziran lale-2 d:20",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "34bitl nur3 d:20 şubat",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "28bintl ağustos çiçek 3 rezidans",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "10bin güvence bedeli lotus3 kasım",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito Bahçe 3 mart 29000",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "temmuz ağustos eylül 78bin depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mart yıldızapart 22000 daire C1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "nisan yıldız 2 evleri 9 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Daire A2 Çiçek Apartmanı 40000 eylül ekim depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "LALE 2 28000 temmuz",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "64 BİN TL güneş-2 mart nisan",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mayıs haziran Lale-2 54 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "DAİRE 4 depozito kasım",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "8000 Lale",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "temmuz Gül 3 Apartmanı 19000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "12.000 TL dB2 nisan",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "31bintl aralık garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "52.000 TL Çalık2 Sitesi garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedeli kasım Park3 Apartmanı 28000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "haziran 22000 TL garanti bedeli Daire 14 lotus-2 apart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "nisan mayıs teminat bedeli 66bintl d:3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "32 BİN TL nur3 sitesi depozito ekim",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Işık 2 Eleri nsan",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "15000 d:B1 haziran Nur3 Sitesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "DAİRE 20 depozito yıldız3apart 36000 TL eylül ekim",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "d:4 depozito mart nisan güneş 3 sitesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eylül Park2 Sitesi 13 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "18000 TL ocak Güneş Evleri depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "14000 TL garanti bedeli Park 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mart nisan mayıs 78 bin tl garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "31 BİN TL Çalık Sitesi mayıs",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "lale 29.000 TL güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito mayıs haziran 40.000 TL Lotus3 Sitesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aağustos 13bintl Park",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "şubat Gül 3 8.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "20intl eylül",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Çalık3 Apartmanı depozito 9 bin tl mart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito AYDIN SITESI 30bintl nisan",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "18 bin tl mayıs haziran Nur 3 Rezdans 13",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ocak Yıldız2 Sitesi teminat bedeli 19.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Daire B2 güvence bedeli eylül çalık 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eylül teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "gül2 apartmanı daire:C1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "24 BİN TL işık2 eylül",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "nur3 21.000 TL garanti bedeli aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "şubat Işık 3 Sitesi teminat bedeli 11000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "temmz ağustos Güneş Evleri 64000 daire:9 teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedeli haziran temmuz ağustos 24000 TL IŞIK 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "11 GÜL-2 REZIDANS 24.o00 TL depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Yıldız 2 depozito 32 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "temmuz ağustos eylül garanti bedeli 78000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Bahçe2 Apart kasım 11 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedeli d10 25bintl şubat Nur 2 Sitesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "30bin Lale 2 Sitesi mart garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "temmuz yıldız2rezidans güvence bedeli 21bin",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "23000 DAİRE 4 ağustos",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aralık d24 14 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "11bin daire:19 Çalık-2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güvence bedeli daie 5 17bin mayıs",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güvece bedeli güneş-3 rezidans eylül ekim kasım 96000 TL daire 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Daire 16 depozito Lotus 3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Nur 2 eylül ekim kasım depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güvence bedeli d:17 75bintl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eylül ekim 26bintl garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "32000 d:24 Işık2 garanti bedeli aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ocak güvence bedeli lale-3 34 bin tl d9",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "24bintl mayıs haziran",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "nur3sitesi ocak dC1 33.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "daire:17 mayıs haziran garanti bedeli Çiçek Sitesi 28000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "LOTUS 2 eylül 28000 teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "99 BİN TL Park 3 garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "29000 kasım daire C1",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ocak şubat depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ÇALIK 3 nisan garanti bedeli d13 30000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "haziran Işık2 Apart garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "çiçek3 sitesi 16 bin tl mayıs",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Çalık2 Apartmanı temmuz garanti bedeli 14 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "33bintl garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "33 BİN TL Daire 8 temmuz Güneş2 Apart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "DDaire 6 GÜL2 EVLERI şubat mart garanti bedeli 50000",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mayıs teminat bedeli daire:B1 Lale 2 Evleri 26bin",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aralık 2 Park3 Evleri depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mart nisan mayıs Lale 3 42 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "işık3apartmanı teminat bedeli daire:3 aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Güneş 44 bin tl ekim kasım d:A2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "şubat gül3apartmanı depozito 18bintl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "işık-2 sitesi daire:2 29bintll mart garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "daire 12 depozito ağustos",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "temmuz ağustos eylül teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mayıs haziran temmuz 36bin Lotus Sitesi garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "62000 çiçek2evleri mart nisan",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "d21 Çalık3 eylül 27 bin tl depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mart garanti bedeli 29 bin tl Aydın2 Apartmanı",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mart nisan Nur 2 teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedeli 57.000 TL ekim kasım aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "23000 TL ağustos teminat bedeli Yıldız3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Daire 7 ocak yıldız3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "PARK-3 EVLERI 350O0 nisan daire 24",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "21000 TL ocak",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "10bin depozito ekim çiçek3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "24bintl Daire 20 Çalık 2 Apartmanı garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "38000 Çiçek 3 Rezidans mayıs haziran",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Aydın 2 Apartmanı aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedeli 26000 ocak Çalık3 Sitesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ağustos 13 bin tl d16",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito park2 temmuz 22 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "şubat mart gül2apartmanı garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "garanti bedeli lotus apart 21 ekim kasım aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kasım aralık 680000 TL garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "yıldız2 eylül ekim teminat bedeli 60 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "nisan güneş rezidans 11bintl Daire 13",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "garanti bedeli 42000 TL şubat mart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "26000 DAİRE 14 teminat bedeli temmuz Bahçe-2 Evlerl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ocak şubat 50bin Işık 3 Apartmanı garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "lale3sitei eylül ekim daire 18",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "DAİRE A2 Işık Apartmanı mart teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "yıldız2 depozito mart 31bintl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "haziran teminat bedeli 28000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "daire:1 Işık Apart temmuz 12.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "34.000 TL mayıs DAİRE C1 garnti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kasım nur2apartmanı depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ekim 26bin BAHÇE-2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ekim kasım 22.000 TL teminat bedeli lale2apart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ocak daire:7",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ÇIÇEK2 DAİRE B1 garanti bedeli 35bin ekim",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güvence bedeli Çalık mart nisan mayıs",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Nur 2 8 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "16000 d:17 haziran",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Çiçek-3 24 bin tl ağustos",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "18 BİN TL nisan çiçek 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito işık2 32bin",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eylül 14.000 TL depozito Güneş Apartmanı",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aralık işık-2 apart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "25bin aralık güvence bedeli Güneş2 DAİRE A2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Lale 2 19 bln tI",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "garanti bedeli şubat Gül Sitesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "gü-2 mayıs güvence bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "daire 16 16.000 TL Nur3 Evleri teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedeli Aydın3 ocak 26 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito aalık 24bintl DAİRE 7 Lae3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mart işık2rezidans 16bin",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eylül ekim Yıldız-3 Rezidans depozito 28bin",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Daire 23 aralık 8000",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "haziran işık2 apart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "şubat teminat bedeli 14 bin tl NUR 2 EVLERI d:5",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "DAİRE 7 depozito lale3evleri 12000 aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "10000 TL d:10 Gül 2 Evleri nisan",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güvence bedeli dA2 temmuz Aydın3 Apartmanı",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "17bintl garanti bedeli çalık 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedeli haziran güneş2 15 22bintl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ekim kasım Çalık2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ocak şubat teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "IŞIK EVLERI ağustos 10000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "26000 mart teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eylül depozito 35bintl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ağustos eylül ekim 87000 TL Güneş-2 depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "çiçek3evleri haziran 29 bin tl teminat bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "35o0 mart garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito 70000 TL mart nisan",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "IŞIK 8 BİN TL daire:10 ekim",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "teminat bedeli 30000 Nur2 ağustos eyllül ekim",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "18 bin tl ÇIÇEK 3 APART kasım",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "çiçk3 ağustos eyll ekim",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Lale2 Rezidans kaım 22bintl garanti bedli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güvence bedeli Daire 6 eylül 16000 Güneş 3 Apart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Işık 2 ocak garanti bedeli 21bin d24",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güvence bedeli mayıs",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "14bintl garanti bedeli NUR-3 şubat",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "17000 BAHÇE 3 SITESI daire:7 mayıs",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "15 BİN TL teminat bedeli ocak Yıldız2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depozito ağustos 23.000 TL Güneş 2 Apart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güvence bedeli Lotus3 ekim 14 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kasım garanti bedeli 9000 işık3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aydın rezidans 27bintl aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "gül2evleri depozito 34000",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "garanti bedeli GÜL3 Daire 3 temmuz",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eylül ekim kasım garantl bedeli Bahçe 2 Evleri",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "DAİRE B1 güvence bedeli 42 BİN TL GÜL3 mart nisan mayıs",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "güvence bedeli 60.000 TL Işık 3 Sitesi ocak şubat",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ekim d:22 garanti bedeli yıldız2evleri",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "IŞIK-2 REZIDANS teminat bedeli ekim 30bintl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Lale-2 temmuz garanti bedeli",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "garanti bedeli 8.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "24000 TL aydın3sitesi kasım",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Güneş 3 güvence bedeli d9",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "70 bin tl daire:1 GÜL-3 APARTMANI ağustos eylül",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "yıldız-2 apartmanı",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kira ocak şubat gül 40bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "21 BİN TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "33000 TL eylül ekim kasım adat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "29bintl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "DAİRE 5 kiraa",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "33000 aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aydat kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "15bintl GÜNEŞ3 SITESI nisan",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "mayıs haziran 38000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Güneş2 Evleri aralık",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "haziran kiraa",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "DAİRE 10 Yıldız 3 nisan",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "24000 TL ocak şubat daire 6",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "DAİRE 8 kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kasım park-3 sitesi",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "aydat odeme",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ekim depo 18 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ağustos 32bintl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "58000",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aydat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "16.000 TL aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "temmuz",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kapra",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "57000 TL d22 Lale 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "temmuz depo",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "lotus2 27 bin tl kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "eylül 29bin",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "temmuz ağustos Çalık 3 Sitesi kapara",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kasım lotus-3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Yıldız 3 Apart 11000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "DAİRE 14 şubat",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aydın 2 temmuz depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "22.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "gül3evleri",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "adat Güneş temmuz ağustos",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "güneş 2 rezidans",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "daire:8 ocak",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "eylül Nur2 Evleri kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Yıldız Rezidans aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kasım depo",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ağustos Lale2 Apart kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Nur-3 Evleri",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "9.000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "haziran",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "dB2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "20bintl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mayıs",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "daire 21 24bintl depo",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kasım 17000",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "eylül",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "29 BİN TL DAİRE 9 aydat odeme haziran Park 2",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "depo şubat mart",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ağustos eylül",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "30.000 TL kapro DAİRE C1",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "16 bin tl aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "haziran 18000 kapra",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ocak 14 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kira mart",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kra daire C1 lale-3 evleri",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "16.000 TL",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "eylül",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "IŞIK2 APART",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Lale 2 Evleri",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "çiçek3evleri",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Lale 24 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aydat 12 BİN TL kasım Nur3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nisan",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "daire:5 kra mayıs",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ekim kasım 30 bin tl",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "IŞIK-3 kiraa daire B1 29bin",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "12bintl temmuz Park-3 Apartmanı",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "şubat mart nisan 39.000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kapra",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "30000",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "mayıs haziran",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aydat odeme mayıs 35bintl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "mayıs haziran depo",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aydat odeme çiçek",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "LALE2 REZIDANS nisan",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "şubat yıldız3rezidans 33000",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "70 bin tl şubat mart lotus2",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Işık3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "depozito",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kra 23 bin tl",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "30.000 TL aralık",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "nisan mayıs 50000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ocak dpozit",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "11",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "depozito işıksitesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "7 25 BİN TL NUR-3 EVLERI",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kapra Çalık 2 Evleri",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapra",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "16bintl şubat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "haziran",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Güneş 3 Apartmanı 21",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "şubat 12 lale2apart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d:8 dpozit ağustos eylül ekim",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "daire:16",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "mart daire 5",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "24000 TL kasım",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Daire 15 24bin",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "26.000 TL çalık-3 aidat ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kapra nisan",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Nur 3 Sitesi",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "temmuz 24000 TL Gül3 Sitesi",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "25bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Gül3 Sitesi DAİRE 10",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "13bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aydat ekim",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "13 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "depozit mart Lotus-2 Rezidans",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "31 BİN TL haziran",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "14 BİN TL ekim daire 18",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "25000 nisan aidat Güneş 3 Apart",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "Gül Apart ağustos eylül",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Güneş 2 kapora Daire 10",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "Çiçek Apartmanı",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "BAHÇE 3 EVLERI",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "64 bin tl ocak şubat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "30000 TL Aydın2 Rezidans kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "AYDIN3 SITESI kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "haziran LOTUS 2 APART",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "haziran işık2sitesi 32.000 TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depo 19000 TL Gül 3",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "30 bin tl lotus3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "işık3 daire:21",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "NUR 3 REZIDANS",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kapra LALE-3 29bin",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ocak",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "d:16 ocak işık 2 evleri",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "depo",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aidat nur3evleri",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "şubat",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "21bin Bahçe Rezidans",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "48000 TL",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ocak 29 bin tl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "20bintl daire:22 lale3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "aidat GÜL 3 REZIDANS",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "GÜNEŞ3",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "aidat 29 BİN TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "DAİRE 19 Çiçek3 Sitesi",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mayıs Güneş-3 Rezidans",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aydat odeme",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "32bin gül2apart",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "Gül Apart aydat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "nisan dpozit",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "YILDIZ2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "30000 TL Güneş 3 Apart",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "11000 TL nisan kira",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kiraa",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "aydat odeme nisan",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kapro aralık",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "kapra lale 3 rezidans",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "25.000 TL temmuz",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "şubat dpozit",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Bahçe3 Sitesi aralık 31000 TL kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "38 bin tl PARK-2 ağustos eylül",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "ekim adat işık-3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kapro d:15",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "aidat",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "24.000 TL IŞIK temmuz",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "mayıs haziran",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "mayıs",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kasım Nur2 Rezidans kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "17 ekim kasım aralık",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "22000 kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "nisan işık sitesi",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "31.000 TL aidat temmuz",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "PARK 3 APARTMANI şubat mart nisan 2",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "LALE-3 APARTMANI aralık",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "16 bin tl",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "aydat kasım",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "d:23",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "güneş-3",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "ekim 16000 YILDIZ SITESI",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "ÇIÇEK-3 34.000 TL",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "kiraa",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kra Aydın 31bintl nisan",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "ocak şubat çalık2 depo 58 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "Yıldız3 Apartmanı 15 BİN TL",
+    "label": "depozito_odemesi"
+  },
+  {
+    "text": "daire:10 ağustos eylül ekim kra",
+    "label": "kira_odemesi"
+  },
+  {
+    "text": "kapora",
+    "label": "kapora_odemesi"
+  },
+  {
+    "text": "mart daire:3 28bintl",
+    "label": "aidat_odemesi"
+  },
+  {
+    "text": "10000 TL",
+    "label": "kira_odemesi"
+  }
+]

@@ -25,7 +25,7 @@ from datetime import datetime
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from src.nlp.v3.inference_robust import (
+from src.nlp.v4.inference_v4 import (
     RobustIntentClassifier,
     RobustNERExtractor
 )
@@ -43,12 +43,18 @@ except ImportError:
 
 class ReceiptPipeline:
     """
-    Full receipt processing pipeline
+    Full receipt processing pipeline - V4 Production
     
     Combines:
     1. OCR Extraction (Tesseract/PaddleOCR)
-    2. Intent Classification (v3 Robust)
-    3. NER Extraction (v3 Hybrid: BERT + Regex)
+    2. Intent Classification (v4 - Multi-month support)
+    3. NER Extraction (v4 - Hybrid BERT + Regex with TITLE entity)
+    
+    V4 Features:
+    - TITLE entity for property names (e.g., çalık-2, ada-3)
+    - Multi-month period support (kasım, aralık, ocak)
+    - OCR error correction (I→1, O→0)
+    - Informal keyword handling (kra, aydat)
     """
     
     def __init__(self, enable_matching: bool = False, mock_db_path: Optional[str] = None):
@@ -120,9 +126,11 @@ class ReceiptPipeline:
         )
         
         print(f"   Extracted Entities:")
+        confidence_scores = ner_result.get('confidence_scores', {})
         for entity_type, value in ner_result['entities_merged'].items():
             method = ner_result['extraction_method'].get(entity_type, 'unknown')
-            print(f"      {entity_type:15s}: {value} [{method}]")
+            confidence = confidence_scores.get(entity_type, 0.0)
+            print(f"      {entity_type:15s}: {value} [{method}] (conf: {confidence:.2%})")
         
         # 3. Merge with OCR data
         merged_entities = self._merge_entities(ocr_result, ner_result['entities_merged'])
@@ -177,6 +185,7 @@ class ReceiptPipeline:
             'ner': {
                 'entities': ner_result['entities_merged'],
                 'extraction_method': ner_result['extraction_method'],
+                'confidence_scores': ner_result.get('confidence_scores', {}),
                 'bert_entities': ner_result['entities_bert'],
                 'regex_entities': ner_result['entities_regex']
             },
@@ -253,7 +262,8 @@ class ReceiptPipeline:
             merged['date'] = ner_entities['date']
         
         # From NER only (not in OCR)
-        ner_only_fields = ['apt_no', 'period', 'bank', 'transaction_type', 'fee']
+        # V4: Added 'title' (property name), removed 'fee'
+        ner_only_fields = ['apt_no', 'period', 'bank', 'transaction_type', 'title']
         for field in ner_only_fields:
             if field in ner_entities:
                 merged[field] = ner_entities[field]
@@ -284,6 +294,9 @@ class ReceiptPipeline:
         if entities.get('amount'):
             currency = entities.get('amount_currency', 'TRY')
             summary_parts.append(f"💰 Tutar: {entities['amount']} {currency}")
+        
+        if entities.get('title'):
+            summary_parts.append(f"🏢 Mülk: {entities['title']}")
         
         if entities.get('apt_no'):
             summary_parts.append(f"🏠 Daire: {entities['apt_no']}")
