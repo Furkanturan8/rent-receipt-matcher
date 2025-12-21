@@ -28,26 +28,81 @@ from transformers import (
 
 def correct_ocr_errors(text: str) -> str:
     """
-    OCR hatalarını düzelt
+    OCR hatalarını düzelt (Genişletilmiş versiyon)
     
     Düzeltmeler:
-    - Sayı context'inde: I→1, O→0, l→1
-    - Harf context'inde: 1→I, 0→O
-    """
-    # Pattern: Sayılarla çevrili I, O, l karakterleri
+    - Sayı context'inde: I→1, O→0, l→1, i→1, ı→1, s→5, S→5
+    - Harf context'inde: 1→I, 0→O, 5→S (isim için)
     
-    # "I4" → "14", "2O25" → "2025"
+    Not: ÖNCE isim context'inde düzeltmeler yapılır (5→S, 1→I, 0→O),
+    SONRA sayı context'inde düzeltmeler yapılır (I→1, O→0, vb.)
+    """
+    # ============================================
+    # ÖNCE: İSİM CONTEXT'İNDE DÜZELTMELER (Sayı → Harf)
+    # Bu düzeltmeler önce yapılmalı, yoksa sayı düzeltmeleri yanlış sonuç verir
+    # ============================================
+    
+    # 5 → S (isim context'inde) - ÖNCE YAPILMALI
+    # Kelime başında: "5ite" → "site", "5ITE" → "SITE"
+    text = re.sub(r'\b5([a-zçğıöşü])', r's\1', text)  # 5ite → site
+    text = re.sub(r'\b5([A-ZÇĞİÖŞÜ])', r'S\1', text)  # 5ITE → SITE
+    # Harfler arasında: "A5ITE" → "ASITE"
+    text = re.sub(r'([A-ZÇĞİÖŞÜa-zçğıöşü])5([A-ZÇĞİÖŞÜa-zçğıöşü])', r'\1S\2', text)
+    
+    # 1 → I (isim context'inde)
+    # Kelime başında: "1BRAHIM" → "IBRAHIM"
+    text = re.sub(r'\b1([A-ZÇĞİÖŞÜ])', r'I\1', text)
+    text = re.sub(r'\b1([a-zçğıöşü])', r'I\1', text)
+    # Harfler arasında: "BRAH1M" → "BRAHIM"
+    text = re.sub(r'([A-ZÇĞİÖŞÜa-zçğıöşü])1([A-ZÇĞİÖŞÜa-zçğıöşü])', r'\1I\2', text)
+    
+    # 0 → O (isim context'inde)
+    # Kelime başında: "0SMAN" → "OSMAN"
+    text = re.sub(r'\b0([A-ZÇĞİÖŞÜ])', r'O\1', text)
+    text = re.sub(r'\b0([a-zçğıöşü])', r'O\1', text)
+    # Harfler arasında: "SM0N" → "SMON"
+    text = re.sub(r'([A-ZÇĞİÖŞÜa-zçğıöşü])0([A-ZÇĞİÖŞÜa-zçğıöşü])', r'\1O\2', text)
+    
+    # ============================================
+    # SONRA: SAYI CONTEXT'İNDE DÜZELTMELER (Harf → Sayı)
+    # ============================================
+    
+    # I → 1 (sayı context'inde)
     text = re.sub(r'I(\d)', r'1\1', text)  # I4 → 14
     text = re.sub(r'(\d)I', r'\g<1>1', text)  # 4I → 41
+    
+    # O → 0 (sayı context'inde)
     text = re.sub(r'O(\d)', r'0\1', text)  # O5 → 05
     text = re.sub(r'(\d)O', r'\g<1>0', text)  # 5O → 50
-    text = re.sub(r'l(\d)', r'1\1', text)  # l4 → 14
     
+    # l → 1 (sayı context'inde)
+    text = re.sub(r'l(\d)', r'1\1', text)  # l4 → 14
+    text = re.sub(r'(\d)l', r'\g<1>1', text)  # 4l → 41
+    
+    # i → 1 (sayı context'inde)
+    text = re.sub(r'i(\d)', r'1\1', text)  # i4 → 14
+    text = re.sub(r'(\d)i', r'\g<1>1', text)  # 4i → 41
+    
+    # ı → 1 (sayı context'inde)
+    text = re.sub(r'ı(\d)', r'1\1', text)  # ı4 → 14
+    text = re.sub(r'(\d)ı', r'\g<1>1', text)  # 4ı → 41
+    
+    # s → 5 (sayı context'inde) - Sadece sayı yanında
+    text = re.sub(r's(\d)', r'5\1', text)  # s0 → 50
+    text = re.sub(r'(\d)s', r'\g<1>5', text)  # 0s → 05
+    
+    # S → 5 (sayı context'inde) - Sadece sayı yanında
+    text = re.sub(r'S(\d)', r'5\1', text)  # S0 → 50
+    text = re.sub(r'(\d)S', r'\g<1>5', text)  # 0S → 05
+    
+    # Özel kombinasyonlar
     # "I4O" → "140"
     text = re.sub(r'I(\d+)O', r'1\g<1>0', text)  # I40 → 140
+    text = re.sub(r'i(\d+)o', r'1\g<1>0', text)  # i40 → 140
     
     # Tarih format: "I2.I2.2O25" → "12.12.2025"
     text = re.sub(r'I(\d)\.I(\d)\.2O(\d{2})', r'1\1.1\2.20\3', text)
+    text = re.sub(r'i(\d)\.i(\d)\.2o(\d{2})', r'1\1.1\2.20\3', text)
     
     return text
 
