@@ -469,6 +469,8 @@ class RobustNERExtractor:
         - Exact case match: 1.0
         - Case-insensitive match: 0.9
         - Pattern specificity: 0.8-0.95
+        
+        Special handling for PERIOD: Finds ALL months (multi-month support)
         """
         text = self.preprocess(text)
         entities = {}
@@ -477,15 +479,39 @@ class RobustNERExtractor:
             best_match = None
             best_confidence = 0.0
             
+            # Special handling for PERIOD: Find ALL months
+            if entity_type == 'period':
+                all_months = []
+                for pattern in patterns:
+                    # Find all matches (case-insensitive)
+                    matches = re.findall(pattern, text, re.IGNORECASE)
+                    if matches:
+                        all_months.extend(matches)
+                        break  # Use first pattern that finds matches
+                
+                if all_months:
+                    # Remove duplicates while preserving order
+                    seen = set()
+                    unique_months = []
+                    for month in all_months:
+                        month_lower = month.lower()
+                        if month_lower not in seen:
+                            seen.add(month_lower)
+                            unique_months.append(month)
+                    
+                    # Join all months with space
+                    value = ' '.join(unique_months)
+                    confidence = 1.0  # High confidence for regex period matches
+                    entities[entity_type] = (value, confidence)
+                continue
+            
+            # For other entities, use single match
             for pattern in patterns:
                 # Try exact case first (higher confidence)
                 match_exact = re.search(pattern, text)
                 if match_exact:
                     confidence = 1.0  # Exact match
-                    if entity_type == 'period':
-                        value = match_exact.group(1)
-                    else:
-                        value = match_exact.group(1)
+                    value = match_exact.group(1)
                     
                     if confidence > best_confidence:
                         best_match = value
@@ -496,10 +522,7 @@ class RobustNERExtractor:
                 match_ci = re.search(pattern, text, re.IGNORECASE)
                 if match_ci:
                     confidence = 0.9  # Case-insensitive match
-                    if entity_type == 'period':
-                        value = match_ci.group(1)
-                    else:
-                        value = match_ci.group(1)
+                    value = match_ci.group(1)
                     
                     if confidence > best_confidence:
                         best_match = value
@@ -530,11 +553,37 @@ class RobustNERExtractor:
         entities_bert = {}
         for entity_type, values in entities_bert_raw.items():
             if values:
-                # Take the first (best) result
-                value, confidence = values[0]
-                # Filter invalid values
-                if isinstance(value, str) and len(value) > 1 and not value.startswith('##'):
-                    entities_bert[entity_type] = (value, confidence)
+                # Special handling for PERIOD: Merge all months
+                if entity_type == 'PERIOD':
+                    # Collect all period values
+                    period_values = []
+                    period_confidences = []
+                    for value, confidence in values:
+                        if isinstance(value, str) and len(value) > 1 and not value.startswith('##'):
+                            period_values.append(value)
+                            period_confidences.append(confidence)
+                    
+                    if period_values:
+                        # Remove duplicates while preserving order
+                        seen = set()
+                        unique_periods = []
+                        for period in period_values:
+                            period_lower = period.lower()
+                            if period_lower not in seen:
+                                seen.add(period_lower)
+                                unique_periods.append(period)
+                        
+                        # Join all periods with space
+                        merged_value = ' '.join(unique_periods)
+                        # Average confidence
+                        avg_confidence = sum(period_confidences) / len(period_confidences) if period_confidences else 0.0
+                        entities_bert[entity_type] = (merged_value, avg_confidence)
+                else:
+                    # Take the first (best) result for other entities
+                    value, confidence = values[0]
+                    # Filter invalid values
+                    if isinstance(value, str) and len(value) > 1 and not value.startswith('##'):
+                        entities_bert[entity_type] = (value, confidence)
         
         # Regex extraction (with confidence)
         entities_regex = self.extract_regex(text) if use_fallback else {}
