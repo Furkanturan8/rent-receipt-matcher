@@ -53,3 +53,20 @@ logs/
 *.bak
 *.swp
 *~
+
+# Environment variables
+.env
+
+# Start script
+start.sh
+
+# Test files
+test/
+
+# Documentation
+docs/
+models/
+results/
+tests/
+DJANGO_API_GUIDE.md
+sunum.md
