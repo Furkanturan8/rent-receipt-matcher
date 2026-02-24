@@ -87,7 +87,11 @@ BANK_SPECIFIC_PATTERNS: Dict[str, ReceiptPatterns] = {
             r"G[\u00d6O]NDEREN\s*(?:K[\u0130I][\u015eS][\u0130I])\s*[:\-]?\s*(.+?)(?:\n|$)"
         ),
         sender_iban=None,  # KuveytTürk'te gönderen IBAN genelde yok
-        description=_compile(r"A[\u00c7C]IKLAMA\s*[:\-]?\s*(.+?)(?:\n|$)"),
+        description=_compile(
+            # Kuveyt Türk açıklamayı gönderen bilgileriyle birleştiriyor;
+            # "Gönderen:" veya satır sonu gelince dur.
+            r"A[\u00c7C]IKLAMA\s*[:\-]?\s*(.+?)(?:\s+G[\u00d6O]NDEREN\s*:|[\n$])"
+        ),
         amount=_compile(
             r"TUTARI?\s*[:\-]?\s*(?:.*?)?([0-9]+(?:[.,][0-9]{1,3})*(?:[.,][0-9]{2})?)\s*(?:TL|\u20ba|USD|EUR|GBP)?"
         ),
